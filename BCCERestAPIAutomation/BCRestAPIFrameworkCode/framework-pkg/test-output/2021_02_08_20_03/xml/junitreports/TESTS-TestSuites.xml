@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites failures="16" name="RESTAPIAutomationSuites" tests="16" time="11.115"><testsuite errors="0" failures="16" name="com.tibco.rest.test.DataDrivenTestCases" skipped="0" tests="16" time="11.115">
+  <properties/>
+      <testcase name="ROLE-05" time="0.599">
+            <failure message="Expected value should contains &quot;Auto Role Edited  you have entered  is already in use&quot; : Actual value is &quot;Auto Role Edited  you have entered  is already in use&quot;" type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError: Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="ROLE-06" time="0.613">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-02" time="0.627">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-07" time="0.666">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-01" time="0.665">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-02" time="0.644">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-04" time="0.630">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-05" time="0.604">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-01" time="0.701">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-03" time="0.628">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-04" time="0.669">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-08" time="0.639">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="Feature-01" time="1.578">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-03" time="0.627">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-06" time="0.612">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-07" time="0.613">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+  
+  
+  
+</testsuite></testsuites>

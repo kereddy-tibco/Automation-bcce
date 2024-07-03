@@ -1,0 +1,78 @@
+@echo off
+
+set year=%date:~-4,4%
+set month=%date:~-3,2%
+set day=%date:~-7,2%
+set hour=%time:~-11,2%
+set minute=%time:~-8,2%
+set timestamp=%year%_%month%_%day%_%hour%_%minute%
+
+set configFile=%1
+set testCaseFile=%2
+set testCaseSheet=%3
+set baseURI=%4
+set basePath=%5
+set port=%6
+set username=%7
+set password=%8
+
+set commandArgs=
+
+if "%configFile%"=="" (
+    echo "Provide config file path in 1st argument."
+    goto end
+) else (
+    goto
+)
+if "%testCaseFile%"=="" (
+    echo "Provide test cases file path in 2st argument."
+    goto end
+) else (
+    if "%testCaseSheet%"=="" (
+        echo "Provide test cases sheet name in 3rd argument."
+        goto end
+    ) else (
+        if "%baseURI%"=="" (
+            echo "Provide application baseURI in 4th argument."
+            goto end
+        ) else (
+            if "%basePath%"=="" (
+                echo "Provide application basePath in 5th argument."
+                goto end
+            ) else (
+                if "%port%"=="" (
+                    echo "Provide application port in 6th argument."
+                    goto end
+                ) else (
+                    if "%username%"=="" (
+                        echo "Provide application username in 7th argument."
+                        goto end
+                    ) else (
+                        if "%password%"=="" (
+                            echo "Provide application password in 8th argument."
+                            goto end
+                        )
+                    )
+                )
+            )
+        )
+    )
+)
+    goto runTestCasesWithArg
+
+:runTestCasesWithArg
+echo cofigFile = %configFile%
+echo testCaseFile = %testCaseFile%
+echo testCaseSheet = %testCaseSheet%
+echo baseURI = %baseURI%
+echo basePath = %basePath%
+echo port = %port%
+echo username = %username%
+echo password = %password%
+java -Dresources.dir=resources -Dorg.uncommons.reportng.escape-output=false -DTestCaseFilePath=%testCaseFile% -DSheetName=%testCaseSheet% -DbaseURI=%baseURI% -DbasePath=%basePath% -Dport=%port% -Dusername=%username% -Dpassword=%password% -cp "lib\*" org.testng.TestNG %configFile% -d "test-output\%timestamp%"
+
+:runTestCasesWithoutArg
+java -Dresources.dir=resources -Dorg.uncommons.reportng.escape-output=false -DTestCaseFilePath=%testCaseFile% -cp "lib\*" org.testng.TestNG %configFile% -d "test-output\%timestamp%"
+
+:end
+

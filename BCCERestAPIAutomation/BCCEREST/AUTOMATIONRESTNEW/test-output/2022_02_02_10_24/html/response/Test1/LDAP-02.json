@@ -1,0 +1,1 @@
+{"alias":"ldap_Auto","hostName":"10.102.11.12","portNumber":"369","bindDN":"bc=dev","bindPassword":":lGSP9u3qVo9EFS9kCpoWBnTCyKsC4kTi2pxAiCKgOYs=","baseDN":"bc=dev","userSearchFilter":"string","userNameAttr":"cn","userGroupOrRoleAttr":"l","serverCert":null,"enabled":true,"secure":true,"readOnly":true}

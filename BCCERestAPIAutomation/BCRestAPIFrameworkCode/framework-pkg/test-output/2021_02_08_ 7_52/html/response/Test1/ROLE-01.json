@@ -1,0 +1,1 @@
+{"errorCode":"BCCE-3100","errorMsg":"Error happened in CS, Message: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet"}

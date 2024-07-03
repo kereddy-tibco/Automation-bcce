@@ -1,0 +1,1 @@
+{"totalRowNum":1,"pageNum":1,"maxRowCount":1,"rows":[{"smartRoutingID":"SmartRouteItem?225B4C5B-F3DB-45C8-A7BE-87CA2A4B257B","serialNumer":1,"protocol":"X12","from":"FromLoc1","to":"ToLoc1","direction":"Outbound","operationID":"Operation1234","smartID":"1Smart1223","enabled":false,"cmname":null}]}

@@ -1,0 +1,1 @@
+{"errorCode":"BCCE-3202","errorMsg":"Failed to remove Protocol. EnabledProtocol: X12 cannot be disabled as it is currently being used by one or more Business Agreements."}

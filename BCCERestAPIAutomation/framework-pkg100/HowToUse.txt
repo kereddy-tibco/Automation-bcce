@@ -1,0 +1,8 @@
+General Prerequisite:
+1) JAVA_HOME must be set. For check JAVA_HOME set or not type java -version command in command prompt or terminal and should see current installed version of java.
+
+How to run automation suites using pom.xml file.
+
+1) Run executable runTestCases.bat / runTestCases.sh based on OS.
+
+Please refer documentation : http://confluence.tibco.com/display/QA/REST+Api+Test+Framework

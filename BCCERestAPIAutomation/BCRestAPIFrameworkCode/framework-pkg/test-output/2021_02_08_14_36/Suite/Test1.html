@@ -1,0 +1,410 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 24 14:36:25 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15931 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-05, POST, /roles, null, application/json, {
+  "roleName": "Auto Role Edited",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}, $..errorCode,$..errorMsg, =,~, ["BCCE-3303","Auto Role Edited  you have entered  is already in use"], null, null, null<br/>
+<a href="#Output-1495257933" onClick='toggleBox("Output-1495257933", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1495257933" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1495257933">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div><div  class="fail"><span class="fail-label">F </span>Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"</div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Expected value should contains &quot;Auto Role Edited  you have entered  is already in use&quot; : Actual value is &quot;Auto Role Edited  you have entered  is already in use&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1495257933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1495257933'><pre>java.lang.AssertionError: Expected value should contains &quot;Auto Role Edited  you have entered  is already in use&quot; : Actual value is &quot;Auto Role Edited  you have entered  is already in use&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>1</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, ["Data"], null, null, null<br/>
+<a href="#Output-476973576" onClick='toggleBox("Output-476973576", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-476973576" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-476973576">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//Feature-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should contains "Data" : Actual value is "Data"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-01, POST, /roles, null, application/json, {
+  "roleName": "Auto Role",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}, $..roleID, !=, ["[]"], roleID01, null, null<br/>
+<a href="#Output-669200356" onClick='toggleBox("Output-669200356", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-669200356" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-669200356">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?FF1B90C1-773A-403B-85A9-A3398E845B10"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-01, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}, $..userID, !=, ["[]"], userID01, null, null<br/>
+<a href="#Output-602858680" onClick='toggleBox("Output-602858680", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-602858680" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-602858680">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?04CD2DD0-3AC2-4CBA-A830-DB67BB75E9E9"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role"], null, null, null<br/>
+<a href="#Output-838800272" onClick='toggleBox("Output-838800272", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-838800272" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-838800272">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role" : Actual value is "Auto Role"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user"], null, null, null<br/>
+<a href="#Output-703627308" onClick='toggleBox("Output-703627308", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-703627308" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-703627308">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user" : Actual value is "Auto user"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-03, POST, /roles/search, null, application/json, {
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "roleName",
+  "ascOrder": true
+}, $..totalRowNum, !=, ["0"], null, null, null<br/>
+<a href="#Output-1124317168" onClick='toggleBox("Output-1124317168", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1124317168" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1124317168">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-03, POST, /users/search, null, application/json, {
+  "criteria": "auto user",
+  "userType": "Internal",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "userName",
+  "ascOrder": true
+}, $..totalRowNum, !=, ["0"], null, null, null<br/>
+<a href="#Output-1178777373" onClick='toggleBox("Output-1178777373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1178777373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1178777373">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  "roleName": "Auto Role Edited",
+"description": "Role Auto Desc Edited",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": true
+    }
+  ]
+}, $..roleID, !=, ["[]"], null, null, null<br/>
+<a href="#Output-1095203437" onClick='toggleBox("Output-1095203437", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1095203437" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1095203437">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?FF1B90C1-773A-403B-85A9-A3398E845B10"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role Edited"], null, null, null<br/>
+<a href="#Output-1418851979" onClick='toggleBox("Output-1418851979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1418851979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1418851979">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role Edited" : Actual value is "Auto Role Edited"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}, $..userID, !=, ["[]"], null, null, null<br/>
+<a href="#Output-1538462491" onClick='toggleBox("Output-1538462491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1538462491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1538462491">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?04CD2DD0-3AC2-4CBA-A830-DB67BB75E9E9"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-05, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto User Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+  "'${ROLE-01.roleID01}'"
+  ]
+}, $..errorCode, =, ["BCCE-3303"], null, null, null<br/>
+<a href="#Output-1788034018" onClick='toggleBox("Output-1788034018", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1788034018" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1788034018">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user Edited"], null, null, null<br/>
+<a href="#Output-51376124" onClick='toggleBox("Output-51376124", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-51376124" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-51376124">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user Edited" : Actual value is "Auto user Edited"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-07, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}, $..errorCode, =, ["BCCE-3202"], null, null, null<br/>
+<a href="#Output-1687087217" onClick='toggleBox("Output-1687087217", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1687087217" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687087217">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 409</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3202" : Actual value is "BCCE-3202"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-07, POST, /users/delete, null, application/json, {
+  "userIDs": [
+    "${USER-01.userID01}"
+  ]
+}, $..userIDs, !=, ["'[]'"], null, null, null<br/>
+<a href="#Output-1882348832" onClick='toggleBox("Output-1882348832", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1882348832" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1882348832">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "User?04CD2DD0-3AC2-4CBA-A830-DB67BB75E9E9"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-08, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}, $..roleIDs, !=, ["'[]'"], null, null, null<br/>
+<a href="#Output-471004142" onClick='toggleBox("Output-471004142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-471004142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-471004142">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-08.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "Role?FF1B90C1-773A-403B-85A9-A3398E845B10"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+</table><p>
+</body>
+</html>

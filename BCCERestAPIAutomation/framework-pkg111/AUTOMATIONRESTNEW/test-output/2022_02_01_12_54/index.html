@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\AUTOMATIONRESTNEW\test-config-files\config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 6 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(HK-1797, GET, /tcpdomain/none/DockerHawk3/Microagent, null, null, null, $..name, ~, [[
+  &quot;COM.TIBCO....)">testcase(HK-1797, GET, /tcpdomain/none/DockerHawk3/Microagent, null, null, null, $..name, ~, [[
+  "COM.TIBCO....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(TEST7, POST, /logout, null, null, null, null, null, null, null, null, null)">testcase(TEST7, POST, /logout, null, null, null, null, null, null, null, null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(test1, GET, /Domain, null, null, null, $.[?(@.name==&#039;tcpdomain&#039;)].name, =, [&quot;tcpdomain&quot;], domainName...)">testcase(test1, GET, /Domain, null, null, null, $.[?(@.name=='tcpdomain')].name, =, ["tcpdomain"], domainName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(test6, GET, /Domain/${test1.domainName}, null, null, null, null, =, {&quot;hawk_transport&quot;:&quot;tibtcp&quot;,&quot;tcp_...)">testcase(test6, GET, /Domain/${test1.domainName}, null, null, null, null, =, {"hawk_transport":"tibtcp","tcp_...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(test2, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, [&quot;tibtcp&quot;], null, n...)">testcase(test2, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(test3, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, [&quot;tibtcp&quot;], null, n...)">testcase(test3, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tibco.rest.test.DataDrivenTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(HK-1797, GET, /tcpdomain/none/DockerHawk3/Microagent, null, null, null, $..name, ~, [[
+  &quot;COM.TIBCO....)">
+                  </a> <!-- testcase(HK-1797, GET, /tcpdomain/none/DockerHawk3/Microagent, null, null, null, $..name, ~, [[
+  "COM.TIBCO....) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(HK-1797, GET, /tcpdomain/none/DockerHawk3/Microagent, null, null, null, $..name, ~, [[
+  "COM.TIBCO.hawk.microagent.DockerHostMA",
+  "COM.TIBCO.hawk.microagent.LMIContainerMA",
+  "com.tibco.hawk.BWCEHawkMicroagent",
+  "COM.TIBCO.hawk.microagent.TcpClusterStatus",
+  "COM.TIBCO.hawk.microagent.TcpMessaging",
+  "com.tibco.hawk.BWCEHawkMicroagent",
+  "COM.TIBCO.hawk.microagent.Self",
+  "COM.TIBCO.hawk.microagent.RuleBaseEngine",
+  "SamplePluginMicroagent",
+  "COM.TIBCO.hawk.microagent.SysInfo"
+]], null, null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected value should contains &quot;[&quot;COM.TIBCO.hawk.microagent.DockerHostMA&quot;,&quot;COM.TIBCO.hawk.microagent.LMIContainerMA&quot;,&quot;com.tibco.hawk.BWCEHawkMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.TcpClusterStatus&quot;,&quot;COM.TIBCO.hawk.microagent.TcpMessaging&quot;,&quot;com.tibco.hawk.BWCEHawkMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.Self&quot;,&quot;COM.TIBCO.hawk.microagent.RuleBaseEngine&quot;,&quot;SamplePluginMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.SysInfo&quot;]&quot; : Actual value is &quot;[&quot;COM.TIBCO.hawk.microagent.DockerHostMA&quot;,&quot;COM.TIBCO.hawk.microagent.LMIContainerMA&quot;,&quot;com.tibco.hawk.BWCEHawkMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.TcpClusterStatus&quot;,&quot;COM.TIBCO.hawk.microagent.TcpMessaging&quot;,&quot;com.tibco.hawk.BWCEHawkMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.Self&quot;,&quot;COM.TIBCO.hawk.microagent.RuleBaseEngine&quot;,&quot;SamplePluginMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.SysInfo&quot;]&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(TEST7, POST, /logout, null, null, null, null, null, null, null, null, null)">
+                  </a> <!-- testcase(TEST7, POST, /logout, null, null, null, null, null, null, null, null, null) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(TEST7, POST, /logout, null, null, null, null, null, null, null, null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response Code is 500
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:460)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(test1, GET, /Domain, null, null, null, $.[?(@.name==&#039;tcpdomain&#039;)].name, =, [&quot;tcpdomain&quot;], domainName...)">
+                  </a> <!-- testcase(test1, GET, /Domain, null, null, null, $.[?(@.name=='tcpdomain')].name, =, ["tcpdomain"], domainName...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(test1, GET, /Domain, null, null, null, $.[?(@.name=='tcpdomain')].name, =, ["tcpdomain"], domainName, null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected value should be &quot;tcpdomain&quot; : Actual value is &quot;[]&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:344)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(test6, GET, /Domain/${test1.domainName}, null, null, null, null, =, {&quot;hawk_transport&quot;:&quot;tibtcp&quot;,&quot;tcp_...)">
+                  </a> <!-- testcase(test6, GET, /Domain/${test1.domainName}, null, null, null, null, =, {"hawk_transport":"tibtcp","tcp_...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(test6, GET, /Domain/${test1.domainName}, null, null, null, null, =, {"hawk_transport":"tibtcp","tcp_session":"hawkconsole:2551 hawkclustermanager:2561","securityPolicy":"","dns":["none"],"aliveAgentCount":1,"deadAgentCount":0,"scheduleCount":2,"rulebaseCount":9,"name":"tcpdomain","state":"Running"}, null, null, null)</span>
+                  <div class="stack-trace">java.net.URISyntaxException: Illegal character in path at index 42: http://10.102.168.175:30001/cms/v1/Domain/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+... Removed 44 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(test2, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, [&quot;tibtcp&quot;], null, n...)">
+                  </a> <!-- testcase(test2, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, n...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(test2, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, null, null)</span>
+                  <div class="stack-trace">java.net.URISyntaxException: Illegal character in path at index 42: http://10.102.168.175:30001/cms/v1/Domain/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+... Removed 44 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(test3, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, [&quot;tibtcp&quot;], null, n...)">
+                  </a> <!-- testcase(test3, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, n...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(test3, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, null, null)</span>
+                  <div class="stack-trace">java.net.URISyntaxException: Illegal character in path at index 42: http://10.102.168.175:30001/cms/v1/Domain/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+... Removed 44 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\AUTOMATIONRESTNEW\test-config-files\config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.tibco.rest.listeners.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.tibco.rest.common&quot;/&gt;
+      &lt;package name=&quot;com.tibco.rest.listeners&quot;/&gt;
+      &lt;package name=&quot;com.tibco.rest.restAssured&quot;/&gt;
+      &lt;package name=&quot;com.tibco.rest.test&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tibco.rest.common.GenerateXMLAndSendMail&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.GetDataFromExcel&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.JavaScriptUtility&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.PropertiesUtil$1&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.PropertiesUtil&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.SendMail$1&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.SendMail&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.TestCaseRunResult&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.listeners.Listeners&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.APIURL&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.Assertions$MessageTypes&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.Assertions&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.AssertManager&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.ExtendedRestAssured&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.RestAssuredConfiguration&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.test.AllApiTest&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.test.DataDrivenTestCases&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.test.Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testcase')
+data.setCell(0, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(0, 3, 1838);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcase')
+data.setCell(1, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(1, 3, 216);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcase')
+data.setCell(2, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(2, 3, 113);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcase')
+data.setCell(3, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(3, 3, 53);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testcase')
+data.setCell(4, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(4, 3, 53);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcase')
+data.setCell(5, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(5, 3, 45);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(HK-1797, GET, /tcpdomain/none/DockerHawk3/Microagent, null, null, null, $..name, ~, [[
+  "COM.TIBCO....)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//HK-1797.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="fail"><span class="fail-label">F </span>Expected value should contains "["COM.TIBCO.hawk.microagent.DockerHostMA","COM.TIBCO.hawk.microagent.LMIContainerMA","com.tibco.hawk.BWCEHawkMicroagent","COM.TIBCO.hawk.microagent.TcpClusterStatus","COM.TIBCO.hawk.microagent.TcpMessaging","com.tibco.hawk.BWCEHawkMicroagent","COM.TIBCO.hawk.microagent.Self","COM.TIBCO.hawk.microagent.RuleBaseEngine","SamplePluginMicroagent","COM.TIBCO.hawk.microagent.SysInfo"]" : Actual value is "["COM.TIBCO.hawk.microagent.DockerHostMA","COM.TIBCO.hawk.microagent.LMIContainerMA","com.tibco.hawk.BWCEHawkMicroagent","COM.TIBCO.hawk.microagent.TcpClusterStatus","COM.TIBCO.hawk.microagent.TcpMessaging","com.tibco.hawk.BWCEHawkMicroagent","COM.TIBCO.hawk.microagent.Self","COM.TIBCO.hawk.microagent.RuleBaseEngine","SamplePluginMicroagent","COM.TIBCO.hawk.microagent.SysInfo"]"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(TEST7, POST, /logout, null, null, null, null, null, null, null, null, null)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//TEST7.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="fail"><span class="fail-label">F </span>Response Code is 500</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(test1, GET, /Domain, null, null, null, $.[?(@.name=='tcpdomain')].name, =, ["tcpdomain"], domainName...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//test1.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="fail"><span class="fail-label">F </span>Expected value should be "tcpdomain" : Actual value is "[]"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(test6, GET, /Domain/${test1.domainName}, null, null, null, null, =, {"hawk_transport":"tibtcp","tcp_...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(test2, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, n...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(test3, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, n...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tibco.rest.test.DataDrivenTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tibco.rest.test.AllApiTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tibco.rest.restAssured.RestAssuredConfiguration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(org.testng.TestRunner@66bfd864, null, null, null, null, null, null, null, null)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tibco.rest.test.DataDrivenTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([test1, GET, /Domain, null, null, null, $.[?(@.name=='tcpdomain')].name, =, ["tcpdomain"], domainNam...)</span>
+                <span class="method-start">2532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(test1, GET, /Domain, null, null, null, $.[?(@.name=='tcpdomain')].name, =, ["tcpdomain"], domainName...)</span>
+                <span class="method-start">2533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@66bfd864, [TestResult name=test1 status=FAILURE method=DataDrivenTestCases.tes...)</span>
+                <span class="method-start">4491 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([test2, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, ...)</span>
+                <span class="method-start">4492 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(test2, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, n...)</span>
+                <span class="method-start">4495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@66bfd864, [TestResult name=test2 status=FAILURE method=DataDrivenTestCases.tes...)</span>
+                <span class="method-start">4565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([test3, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, ...)</span>
+                <span class="method-start">4581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(test3, GET, /Domain/${test1.domainName}, null, null, null, $..hawk_transport, =, ["tibtcp"], null, n...)</span>
+                <span class="method-start">4599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@66bfd864, [TestResult name=test3 status=FAILURE method=DataDrivenTestCases.tes...)</span>
+                <span class="method-start">4663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([test6, GET, /Domain/${test1.domainName}, null, null, null, null, =, {"hawk_transport":"tibtcp","tcp...)</span>
+                <span class="method-start">4663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(test6, GET, /Domain/${test1.domainName}, null, null, null, null, =, {"hawk_transport":"tibtcp","tcp_...)</span>
+                <span class="method-start">4665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@66bfd864, [TestResult name=test6 status=FAILURE method=DataDrivenTestCases.tes...)</span>
+                <span class="method-start">4755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([TEST7, POST, /logout, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">4756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(TEST7, POST, /logout, null, null, null, null, null, null, null, null, null)</span>
+                <span class="method-start">4756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@66bfd864, [TestResult name=TEST7 status=FAILURE method=DataDrivenTestCases.tes...)</span>
+                <span class="method-start">4988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([HK-1797, GET, /tcpdomain/none/DockerHawk3/Microagent, null, null, null, $..name, ~, [[
+  "COM.TIBCO...)</span>
+                <span class="method-start">4988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(HK-1797, GET, /tcpdomain/none/DockerHawk3/Microagent, null, null, null, $..name, ~, [[
+  "COM.TIBCO....)</span>
+                <span class="method-start">4989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@66bfd864, [TestResult name=HK-1797 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">5122 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tibco.rest.restAssured.RestAssuredConfiguration</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">5241 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

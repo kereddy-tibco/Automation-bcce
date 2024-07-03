@@ -1,0 +1,1 @@
+{"properties":[{"id":"TimeInterval","value":"Every 30 mins"},{"id":"MaxNumOfTransactions","value":"2"},{"id":"IsEnabled","value":"true"},{"id":"TransmissionWindow","value":"Everyday"},{"id":"StartTime","value":"0:0"},{"id":"EndTime","value":"23:59"},{"id":"ScheduledDays","value":"THURSDAY,MONDAY"},{"id":"ScheduledDates","value":"2019-12-10"}]}

@@ -1,0 +1,1446 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/13/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 25 07:52:59 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20450 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, ["Data"], null, null, null<br/>
+<a href="#Output-2008746677" onClick='toggleBox("Output-2008746677", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2008746677" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2008746677">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//Feature-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="fail"><span class="fail-label">F </span>Unable to store response string to variable or couldn't received response.</div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Unable to store response string to variable or couldn&apos;t received response.
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:415)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2008746677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2008746677'><pre>java.lang.AssertionError: Unable to store response string to variable or couldn&apos;t received response.
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:415)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>4</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-01, POST, /roles, null, application/json, {
+  "roleName": "Auto Role",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}, $..roleID, !=, ["[]"], roleID01, null, null<br/>
+<a href="#Output-1855112877" onClick='toggleBox("Output-1855112877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1855112877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1855112877">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="fail"><span class="fail-label">F </span>Expected value should not be "[]" : Actual value is "[]"</div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Expected value should not be &quot;[]&quot; : Actual value is &quot;[]&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertNotEquals(Assertions.java:196)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:520)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:344)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1855112877", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1855112877'><pre>java.lang.AssertionError: Expected value should not be &quot;[]&quot; : Actual value is &quot;[]&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertNotEquals(Assertions.java:196)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:520)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>1</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-01, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}, $..userID, !=, ["[]"], userID01, null, null<br/>
+<a href="#Output-205278236" onClick='toggleBox("Output-205278236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-205278236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-205278236">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="fail"><span class="fail-label">F </span>Expected value should not be "[]" : Actual value is "[]"</div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Expected value should not be &quot;[]&quot; : Actual value is &quot;[]&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertNotEquals(Assertions.java:196)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:520)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:344)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace205278236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace205278236'><pre>java.lang.AssertionError: Expected value should not be &quot;[]&quot; : Actual value is &quot;[]&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertNotEquals(Assertions.java:196)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:520)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>2</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role"], null, null, null<br/>
+<a href="#Output-680865258" onClick='toggleBox("Output-680865258", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-680865258" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-680865258">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div><br/>
+</div>
+</td>
+<td><div><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/roles/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+... Removed 44 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace680865258", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace680865258'><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/roles/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user"], null, null, null<br/>
+<a href="#Output-1096411163" onClick='toggleBox("Output-1096411163", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1096411163" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1096411163">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div><br/>
+</div>
+</td>
+<td><div><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/users/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+... Removed 44 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1096411163", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1096411163'><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/users/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-03, POST, /users/search, null, application/json, {
+  "criteria": "auto user",
+  "userType": "Internal",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "userName",
+  "ascOrder": true
+}, $..totalRowNum, !=, ["0"], null, null, null<br/>
+<a href="#Output-1399225534" onClick='toggleBox("Output-1399225534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1399225534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1399225534">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="fail"><span class="fail-label">F </span>Expected value should not be "0" : Actual value is "0"</div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Expected value should not be &quot;0&quot; : Actual value is &quot;0&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertNotEquals(Assertions.java:196)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:520)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1399225534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1399225534'><pre>java.lang.AssertionError: Expected value should not be &quot;0&quot; : Actual value is &quot;0&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertNotEquals(Assertions.java:196)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:520)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>3</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  "roleName": "Auto Role Edited",
+"description": "Role Auto Desc Edited",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": true
+    }
+  ]
+}, $..roleID, !=, ["[]"], null, null, null<br/>
+<a href="#Output-678680178" onClick='toggleBox("Output-678680178", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-678680178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-678680178">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div><br/>
+</div>
+</td>
+<td><div><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/roles/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:178)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:214)
+... Removed 42 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace678680178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace678680178'><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/roles/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at sun.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:178)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:214)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-05, POST, /roles, null, application/json, {
+  "roleName": "Auto Role Edited",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}, $..errorCode,$..errorMsg, =,~, ["BCCE-3303","Auto Role Edited  you have entered  is already in use"], null, null, null<br/>
+<a href="#Output-773296871" onClick='toggleBox("Output-773296871", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-773296871" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-773296871">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="fail"><span class="fail-label">F </span>Expected value should be "BCCE-3303" : Actual value is ""</div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Expected value should be &quot;BCCE-3303&quot; : Actual value is &quot;&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace773296871", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace773296871'><pre>java.lang.AssertionError: Expected value should be &quot;BCCE-3303&quot; : Actual value is &quot;&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>1</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role Edited"], null, null, null<br/>
+<a href="#Output-2037202079" onClick='toggleBox("Output-2037202079", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2037202079" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2037202079">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div><br/>
+</div>
+</td>
+<td><div><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/roles/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+... Removed 42 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2037202079", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2037202079'><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/roles/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at sun.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}, $..userID, !=, ["[]"], null, null, null<br/>
+<a href="#Output-1314228008" onClick='toggleBox("Output-1314228008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1314228008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1314228008">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div><br/>
+</div>
+</td>
+<td><div><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/users/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:178)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:214)
+... Removed 42 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1314228008", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1314228008'><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/users/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at sun.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:178)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:214)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-05, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto User Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+  "'${ROLE-01.roleID01}'"
+  ]
+}, $..errorCode, =, ["BCCE-3303"], null, null, null<br/>
+<a href="#Output-1544067887" onClick='toggleBox("Output-1544067887", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1544067887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1544067887">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="fail"><span class="fail-label">F </span>Expected value should be "BCCE-3303" : Actual value is ""</div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Expected value should be &quot;BCCE-3303&quot; : Actual value is &quot;&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1544067887", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1544067887'><pre>java.lang.AssertionError: Expected value should be &quot;BCCE-3303&quot; : Actual value is &quot;&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>1</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user Edited"], null, null, null<br/>
+<a href="#Output-2128195220" onClick='toggleBox("Output-2128195220", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2128195220" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2128195220">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div><br/>
+</div>
+</td>
+<td><div><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/users/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+... Removed 42 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2128195220", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2128195220'><pre>java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/users/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at sun.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-07, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}, $..errorCode, =, ["BCCE-3202"], null, null, null<br/>
+<a href="#Output-516413619" onClick='toggleBox("Output-516413619", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-516413619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-516413619">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="fail"><span class="fail-label">F </span>Expected value should be "BCCE-3202" : Actual value is ""</div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Expected value should be &quot;BCCE-3202&quot; : Actual value is &quot;&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace516413619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace516413619'><pre>java.lang.AssertionError: Expected value should be &quot;BCCE-3202&quot; : Actual value is &quot;&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+</pre></div></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-03, POST, /roles/search, null, application/json, {
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "roleName",
+  "ascOrder": true
+}, $..totalRowNum, !=, ["0"], null, null, null<br/>
+<a href="#Output-1943444495" onClick='toggleBox("Output-1943444495", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1943444495" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1943444495">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is ""</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: USER-07, POST, /users/delete, null, application/json, {
+  "userIDs": [
+    "${USER-01.userID01}"
+  ]
+}, $..userIDs, !=, ["'[]'"], null, null, null<br/>
+<a href="#Output-51376124" onClick='toggleBox("Output-51376124", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-51376124" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-51376124">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "[]"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+<tr>
+<td title='com.tibco.rest.test.DataDrivenTestCases.testcase()'><b>testcase</b><br>Test class: com.tibco.rest.test.DataDrivenTestCases (ROLE-08)<br>Parameters: ROLE-08, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}, $..roleIDs, !=, ["'[]'"], null, null, null<br/>
+<a href="#Output-562685863" onClick='toggleBox("Output-562685863", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-562685863" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-562685863">
+<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-08.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "[]"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tibco.rest.test.DataDrivenTestCases@36b4cef0</td></tr>
+</table><p>
+</body>
+</html>

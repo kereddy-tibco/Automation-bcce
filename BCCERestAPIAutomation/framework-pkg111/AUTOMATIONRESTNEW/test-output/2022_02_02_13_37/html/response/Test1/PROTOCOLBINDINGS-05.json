@@ -1,0 +1,1 @@
+{"outboundTransportSettings":[{"id":"primaryOBTransport","value":"HTTPS"},{"id":"asyncMDNOBTransport","value":"HTTPS"},{"id":"asyncMDNServerCert","value":null},{"id":"clientAuthKey","value":null},{"id":"clientAuthKeySSHFTP","value":null}],"inboundTransports":[]}

@@ -1,0 +1,3 @@
+com\tibco\rest\test\AllApiTest.class
+com\tibco\rest\test\DataDrivenTestCases.class
+com\tibco\rest\test\Test.class

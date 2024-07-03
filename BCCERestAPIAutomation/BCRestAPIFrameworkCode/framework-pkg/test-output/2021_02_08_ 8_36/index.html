@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\RestAPIFramework\framework-pkg\test-config-files\config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 7 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, [&quot;Auto user&quot;...)">testcase(USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(ROLE-07, POST, /roles/delete, null, application/json, {
+  &quot;roleIDs&quot;: [
+   &quot;${ROLE-01.roleID01}&quot;
+  ]
+...)">testcase(ROLE-07, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, [&quot;Auto Role ...)">testcase(ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, [&quot;Auto user ...)">testcase(USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(USER-01, POST, /users, null, application/json, {
+  &quot;userType&quot;: &quot;Internal&quot;,
+  &quot;userName&quot;: &quot;Auto user&quot;...)">testcase(USER-01, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(ROLE-05, POST, /roles, null, application/json, {
+  &quot;roleName&quot;: &quot;Auto Role Edited&quot;,
+  &quot;description&quot;: ...)">testcase(ROLE-05, POST, /roles, null, application/json, {
+  "roleName": "Auto Role Edited",
+  "description": ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  &quot;userType&quot;: &quot;Internal&quot;,
+  &quot;use...)">testcase(USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  "userType": "Internal",
+  "use...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(USER-05, POST, /users, null, application/json, {
+  &quot;userType&quot;: &quot;Internal&quot;,
+  &quot;userName&quot;: &quot;Auto User ...)">testcase(USER-05, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto User ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, [&quot;Data&quot;], null, null, n...)">testcase(Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, ["Data"], null, null, n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(ROLE-03, POST, /roles/search, null, application/json, {
+  &quot;criteria&quot;: &quot;AUTO ROLE&quot;,
+  &quot;pageNum&quot;: 1,
+ ...)">testcase(ROLE-03, POST, /roles/search, null, application/json, {
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+ ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(USER-03, POST, /users/search, null, application/json, {
+  &quot;criteria&quot;: &quot;auto user&quot;,
+  &quot;userType&quot;: &quot;In...)">testcase(USER-03, POST, /users/search, null, application/json, {
+  "criteria": "auto user",
+  "userType": "In...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(ROLE-01, POST, /roles, null, application/json, {
+  &quot;roleName&quot;: &quot;Auto Role&quot;,
+  &quot;description&quot;: &quot;Role A...)">testcase(ROLE-01, POST, /roles, null, application/json, {
+  "roleName": "Auto Role",
+  "description": "Role A...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(ROLE-08, POST, /roles/delete, null, application/json, {
+  &quot;roleIDs&quot;: [
+   &quot;${ROLE-01.roleID01}&quot;
+  ]
+...)">testcase(ROLE-08, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(USER-07, POST, /users/delete, null, application/json, {
+  &quot;userIDs&quot;: [
+    &quot;${USER-01.userID01}&quot;
+  ]...)">testcase(USER-07, POST, /users/delete, null, application/json, {
+  "userIDs": [
+    "${USER-01.userID01}"
+  ]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  &quot;roleName&quot;: &quot;Auto Role Edited&quot;...)">testcase(ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  "roleName": "Auto Role Edited"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tibco.rest.test.DataDrivenTestCases" hash-for-method="testcase(ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, [&quot;Auto Role&quot;...)">testcase(ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tibco.rest.test.DataDrivenTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, [&quot;Auto user&quot;...)">
+                  </a> <!-- testcase(USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user"...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user"], null, null, null)</span>
+                  <div class="stack-trace">java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/users/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+... Removed 44 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(ROLE-07, POST, /roles/delete, null, application/json, {
+  &quot;roleIDs&quot;: [
+   &quot;${ROLE-01.roleID01}&quot;
+  ]
+...)">
+                  </a> <!-- testcase(ROLE-07, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(ROLE-07, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}, $..errorCode, =, ["BCCE-3202"], null, null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected value should be &quot;BCCE-3202&quot; : Actual value is &quot;&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, [&quot;Auto Role ...)">
+                  </a> <!-- testcase(ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role ...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role Edited"], null, null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected value should be &quot;Auto Role Edited&quot; : Actual value is &quot;Auto Role&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, [&quot;Auto user ...)">
+                  </a> <!-- testcase(USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user ...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user Edited"], null, null, null)</span>
+                  <div class="stack-trace">java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/users/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(USER-01, POST, /users, null, application/json, {
+  &quot;userType&quot;: &quot;Internal&quot;,
+  &quot;userName&quot;: &quot;Auto user&quot;...)">
+                  </a> <!-- testcase(USER-01, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user"...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(USER-01, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}, $..userID, !=, ["[]"], userID01, null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected value should not be &quot;[]&quot; : Actual value is &quot;[]&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertNotEquals(Assertions.java:196)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:520)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:344)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(ROLE-05, POST, /roles, null, application/json, {
+  &quot;roleName&quot;: &quot;Auto Role Edited&quot;,
+  &quot;description&quot;: ...)">
+                  </a> <!-- testcase(ROLE-05, POST, /roles, null, application/json, {
+  "roleName": "Auto Role Edited",
+  "description": ...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(ROLE-05, POST, /roles, null, application/json, {
+  "roleName": "Auto Role Edited",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}, $..errorCode,$..errorMsg, =,~, ["BCCE-3303","Auto Role Edited  you have entered  is already in use"], null, null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected value should contains &quot;Auto Role Edited  you have entered  is already in use&quot; : Actual value is &quot;Auto Role Edited  you have entered  is already in use&quot;
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  &quot;userType&quot;: &quot;Internal&quot;,
+  &quot;use...)">
+                  </a> <!-- testcase(USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  "userType": "Internal",
+  "use...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}, $..userID, !=, ["[]"], null, null, null)</span>
+                  <div class="stack-trace">java.net.URISyntaxException: Illegal character in path at index 39: http://10.102.16.61:30001/cms/v1/users/[]
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.&lt;init&gt;(Unknown Source)
+	at io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)
+	at io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:178)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:214)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tibco.rest.test.DataDrivenTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(USER-05, POST, /users, null, application/json, {
+  &quot;userType&quot;: &quot;Internal&quot;,
+  &quot;userName&quot;: &quot;Auto User ...)">
+                  </a> <!-- testcase(USER-05, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto User ...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(USER-05, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto User Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+  "'${ROLE-01.roleID01}'"
+  ]
+}, $..errorCode, =, ["BCCE-3303"], null, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, [&quot;Data&quot;], null, null, n...)">
+                  </a> <!-- testcase(Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, ["Data"], null, null, n...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, ["Data"], null, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(ROLE-03, POST, /roles/search, null, application/json, {
+  &quot;criteria&quot;: &quot;AUTO ROLE&quot;,
+  &quot;pageNum&quot;: 1,
+ ...)">
+                  </a> <!-- testcase(ROLE-03, POST, /roles/search, null, application/json, {
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+ ...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(ROLE-03, POST, /roles/search, null, application/json, {
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "roleName",
+  "ascOrder": true
+}, $..totalRowNum, !=, ["0"], null, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(USER-03, POST, /users/search, null, application/json, {
+  &quot;criteria&quot;: &quot;auto user&quot;,
+  &quot;userType&quot;: &quot;In...)">
+                  </a> <!-- testcase(USER-03, POST, /users/search, null, application/json, {
+  "criteria": "auto user",
+  "userType": "In...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(USER-03, POST, /users/search, null, application/json, {
+  "criteria": "auto user",
+  "userType": "Internal",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "userName",
+  "ascOrder": true
+}, $..totalRowNum, !=, ["0"], null, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(ROLE-01, POST, /roles, null, application/json, {
+  &quot;roleName&quot;: &quot;Auto Role&quot;,
+  &quot;description&quot;: &quot;Role A...)">
+                  </a> <!-- testcase(ROLE-01, POST, /roles, null, application/json, {
+  "roleName": "Auto Role",
+  "description": "Role A...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(ROLE-01, POST, /roles, null, application/json, {
+  "roleName": "Auto Role",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}, $..roleID, !=, ["[]"], roleID01, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(ROLE-08, POST, /roles/delete, null, application/json, {
+  &quot;roleIDs&quot;: [
+   &quot;${ROLE-01.roleID01}&quot;
+  ]
+...)">
+                  </a> <!-- testcase(ROLE-08, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(ROLE-08, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}, $..roleIDs, !=, ["'[]'"], null, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(USER-07, POST, /users/delete, null, application/json, {
+  &quot;userIDs&quot;: [
+    &quot;${USER-01.userID01}&quot;
+  ]...)">
+                  </a> <!-- testcase(USER-07, POST, /users/delete, null, application/json, {
+  "userIDs": [
+    "${USER-01.userID01}"
+  ]...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(USER-07, POST, /users/delete, null, application/json, {
+  "userIDs": [
+    "${USER-01.userID01}"
+  ]
+}, $..userIDs, !=, ["'[]'"], null, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  &quot;roleName&quot;: &quot;Auto Role Edited&quot;...)">
+                  </a> <!-- testcase(ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  "roleName": "Auto Role Edited"...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  "roleName": "Auto Role Edited",
+"description": "Role Auto Desc Edited",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": true
+    }
+  ]
+}, $..roleID, !=, ["[]"], null, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase(ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, [&quot;Auto Role&quot;...)">
+                  </a> <!-- testcase(ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role"...) -->
+                  <span class="method-name">testcase</span>
+                  <span class="parameters">(ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role"], null, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\RestAPIFramework\framework-pkg\test-config-files\config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.tibco.rest.listeners.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.tibco.rest.common&quot;/&gt;
+      &lt;package name=&quot;com.tibco.rest.listeners&quot;/&gt;
+      &lt;package name=&quot;com.tibco.rest.restAssured&quot;/&gt;
+      &lt;package name=&quot;com.tibco.rest.test&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tibco.rest.common.GenerateXMLAndSendMail&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.GetDataFromExcel&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.JavaScriptUtility&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.PropertiesUtil$1&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.PropertiesUtil&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.SendMail$1&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.SendMail&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.common.TestCaseRunResult&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.listeners.Listeners&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.APIURL&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.Assertions$MessageTypes&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.Assertions&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.AssertManager&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.ExtendedRestAssured&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.restAssured.RestAssuredConfiguration&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.test.AllApiTest&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.test.DataDrivenTestCases&quot;/&gt;
+      &lt;class name=&quot;com.tibco.rest.test.Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testcase')
+data.setCell(0, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(0, 3, 2364);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcase')
+data.setCell(1, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(1, 3, 885);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcase')
+data.setCell(2, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(2, 3, 875);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcase')
+data.setCell(3, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(3, 3, 874);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testcase')
+data.setCell(4, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(4, 3, 847);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcase')
+data.setCell(5, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(5, 3, 823);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testcase')
+data.setCell(6, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(6, 3, 771);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testcase')
+data.setCell(7, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(7, 3, 751);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testcase')
+data.setCell(8, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(8, 3, 746);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testcase')
+data.setCell(9, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(9, 3, 732);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testcase')
+data.setCell(10, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(10, 3, 715);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testcase')
+data.setCell(11, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(11, 3, 714);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testcase')
+data.setCell(12, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(12, 3, 684);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testcase')
+data.setCell(13, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(13, 3, 38);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testcase')
+data.setCell(14, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(14, 3, 28);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testcase')
+data.setCell(15, 2, 'com.tibco.rest.test.DataDrivenTestCases')
+data.setCell(15, 3, 26);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(USER-05, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto User ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, ["Data"], null, null, n...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//Feature-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should contains "Data" : Actual value is "Data"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(ROLE-03, POST, /roles/search, null, application/json, {
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+ ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "2"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(USER-03, POST, /users/search, null, application/json, {
+  "criteria": "auto user",
+  "userType": "In...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is ""</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(ROLE-01, POST, /roles, null, application/json, {
+  "roleName": "Auto Role",
+  "description": "Role A...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?7D5F8770-50E2-4FEF-94AB-3A8F715BEACA"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(ROLE-08, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-08.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "Role?7D5F8770-50E2-4FEF-94AB-3A8F715BEACA"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(USER-07, POST, /users/delete, null, application/json, {
+  "userIDs": [
+    "${USER-01.userID01}"
+  ]...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "[]"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  "roleName": "Auto Role Edited"...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is ""</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role"...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role" : Actual value is "Auto Role"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user"...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(ROLE-07, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="fail"><span class="fail-label">F </span>Expected value should be "BCCE-3202" : Actual value is ""</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="fail"><span class="fail-label">F </span>Expected value should be "Auto Role Edited" : Actual value is "Auto Role"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(USER-01, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user"...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="fail"><span class="fail-label">F </span>Expected value should not be "[]" : Actual value is "[]"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(ROLE-05, POST, /roles, null, application/json, {
+  "roleName": "Auto Role Edited",
+  "description": ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div><div  class="fail"><span class="fail-label">F </span>Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase(USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  "userType": "Internal",
+  "use...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tibco.rest.test.DataDrivenTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tibco.rest.test.AllApiTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tibco.rest.restAssured.RestAssuredConfiguration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(org.testng.TestRunner@11653e3b, null, null, null, null, null, null, null, null)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tibco.rest.test.DataDrivenTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, ["Data"], null, null, ...)</span>
+                <span class="method-start">2820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(Feature-01, GET, /features, null, application/json, null, $[0]..category, ~, ["Data"], null, null, n...)</span>
+                <span class="method-start">2902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=Feature-01 status=FAILURE method=DataDrivenTestCase...)</span>
+                <span class="method-start">5268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([ROLE-01, POST, /roles, null, application/json, {
+  "roleName": "Auto Role",
+  "description": "Role ...)</span>
+                <span class="method-start">5269 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(ROLE-01, POST, /roles, null, application/json, {
+  "roleName": "Auto Role",
+  "description": "Role A...)</span>
+                <span class="method-start">5270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=ROLE-01 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">6016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([USER-01, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user...)</span>
+                <span class="method-start">6016 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(USER-01, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto user"...)</span>
+                <span class="method-start">6020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=USER-01 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">6778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role...)</span>
+                <span class="method-start">6782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(ROLE-02, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role"...)</span>
+                <span class="method-start">6783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=ROLE-02 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">7671 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user...)</span>
+                <span class="method-start">7673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(USER-02, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user"...)</span>
+                <span class="method-start">7675 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=USER-02 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">7718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([ROLE-03, POST, /roles/search, null, application/json, {
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+...)</span>
+                <span class="method-start">7719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(ROLE-03, POST, /roles/search, null, application/json, {
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+ ...)</span>
+                <span class="method-start">7721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=ROLE-03 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">8481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([USER-03, POST, /users/search, null, application/json, {
+  "criteria": "auto user",
+  "userType": "I...)</span>
+                <span class="method-start">8482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(USER-03, POST, /users/search, null, application/json, {
+  "criteria": "auto user",
+  "userType": "In...)</span>
+                <span class="method-start">8489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=USER-03 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">9219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  "roleName": "Auto Role Edited...)</span>
+                <span class="method-start">9225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(ROLE-04, PUT, /roles/${ROLE-01.roleID01}, null, application/json, {
+  "roleName": "Auto Role Edited"...)</span>
+                <span class="method-start">9227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=ROLE-04 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">10105 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([ROLE-05, POST, /roles, null, application/json, {
+  "roleName": "Auto Role Edited",
+  "description":...)</span>
+                <span class="method-start">10110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(ROLE-05, POST, /roles, null, application/json, {
+  "roleName": "Auto Role Edited",
+  "description": ...)</span>
+                <span class="method-start">10114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=ROLE-05 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">10808 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role...)</span>
+                <span class="method-start">10808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(ROLE-06, GET, /roles/${ROLE-01.roleID01}, null, application/json, null, $..roleName, =, ["Auto Role ...)</span>
+                <span class="method-start">10813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=ROLE-06 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">11651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  "userType": "Internal",
+  "us...)</span>
+                <span class="method-start">11652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(USER-04, PUT, /users/${USER-01.userID01}, null, application/json, {
+  "userType": "Internal",
+  "use...)</span>
+                <span class="method-start">11654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=USER-04 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">11684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([USER-05, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto User...)</span>
+                <span class="method-start">11685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(USER-05, POST, /users, null, application/json, {
+  "userType": "Internal",
+  "userName": "Auto User ...)</span>
+                <span class="method-start">11686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=USER-05 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">12565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user...)</span>
+                <span class="method-start">12566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(USER-06, GET, /users/${USER-01.userID01}, null, application/json, null, $..userName, =, ["Auto user ...)</span>
+                <span class="method-start">12567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=USER-06 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">12608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([ROLE-07, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]...)</span>
+                <span class="method-start">12609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(ROLE-07, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+...)</span>
+                <span class="method-start">12619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=ROLE-07 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">13469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([USER-07, POST, /users/delete, null, application/json, {
+  "userIDs": [
+    "${USER-01.userID01}"
+  ...)</span>
+                <span class="method-start">13473 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(USER-07, POST, /users/delete, null, application/json, {
+  "userIDs": [
+    "${USER-01.userID01}"
+  ]...)</span>
+                <span class="method-start">13480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=USER-07 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">14254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod([ROLE-08, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]...)</span>
+                <span class="method-start">14259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase(ROLE-08, POST, /roles/delete, null, application/json, {
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+...)</span>
+                <span class="method-start">14267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@11653e3b, [TestResult name=ROLE-08 status=FAILURE method=DataDrivenTestCases.t...)</span>
+                <span class="method-start">14985 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tibco.rest.restAssured.RestAssuredConfiguration</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">15140 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

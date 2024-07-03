@@ -1,0 +1,3175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tibco.rest.test.DataDrivenTestCases"
+           tests="515"
+           failures="515"
+           errors="0"
+           skipped="0"
+           time="563.175">
+  <properties />
+      <testcase name="LOCATIONERROR-04" time="0.406">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;Admin Office  you have entered  is already in use&quot; : Actual value is &quot;Admin Office  you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "Admin Office  you have entered  is already in use" : Actual value is "Admin Office  you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-03" time="0.429">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should be &quot;true&quot; : Actual value is &quot;&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should be "true" : Actual value is ""
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="RNROLEERROR-02" time="1.294">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;RN Role Test you have entered  is already in use&quot; : Actual value is &quot;RN Role Test you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "RN Role Test you have entered  is already in use" : Actual value is "RN Role Test you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="PCCEC-06" time="1.871">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should not be &quot;[]&quot; : Actual value is &quot;[]&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should not be "[]" : Actual value is "[]"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertNotEquals(Assertions.java:196)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:520)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:344)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="PROXYERROR-04" time="1.359">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;ProxyHTTP1 you have entered  is already in use&quot; : Actual value is &quot;ProxyHTTP1 you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "ProxyHTTP1 you have entered  is already in use" : Actual value is "ProxyHTTP1 you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-03" time="0.658">
+            <failure type="java.lang.AssertionError"
+                  message="Unable to store response string to variable or couldn&apos;t received response."
+              >
+<![CDATA[java.lang.AssertionError: Unable to store response string to variable or couldn't received response.
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:415)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TOutbound8" time="1.475">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;The Transport name http_rn  you have entered  is already in use&quot; : Actual value is &quot;The Transport name http_rn  you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "The Transport name http_rn  you have entered  is already in use" : Actual value is "The Transport name http_rn  you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="PROXYERROR-02" time="1.279">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;ProxyHTTP you have entered  is already in use&quot; : Actual value is &quot;ProxyHTTP you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "ProxyHTTP you have entered  is already in use" : Actual value is "ProxyHTTP you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="IBTProtocol-12" time="0.474">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should be &quot;EMAIL&quot; : Actual value is &quot;[&quot;EMAIL&quot;,&quot;FILE&quot;,&quot;FTP&quot;,&quot;HTTP&quot;]&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should be "EMAIL" : Actual value is "["EMAIL","FILE","FTP","HTTP"]"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="RNROLEERROR-05" time="1.175">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;RosettaNet Role Name  you have entered  is already in use&quot; : Actual value is &quot;RosettaNet Role Name  you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "RosettaNet Role Name  you have entered  is already in use" : Actual value is "RosettaNet Role Name  you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="UserGroup-02" time="0.350">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should be &quot;Groupname Auto User group  you have entered  is already in use.&quot; : Actual value is &quot;Groupname Auto User group  you have entered is already in use.&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should be "Groupname Auto User group  you have entered  is already in use." : Actual value is "Groupname Auto User group  you have entered is already in use."
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="DOMAINPAIRS-09" time="1.527">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should be &quot;Domain Identity cannot have empty value.&quot; : Actual value is &quot;Domain Identity cannot have empty value&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should be "Domain Identity cannot have empty value." : Actual value is "Domain Identity cannot have empty value"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="PCCEC-07" time="1.197">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;Name  you have entered  is already in use&quot; : Actual value is &quot;Name  you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "Name  you have entered  is already in use" : Actual value is "Name  you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="ROLE-05" time="0.387">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;Auto Role Edited  you have entered  is already in use&quot; : Actual value is &quot;Auto Role Edited  you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="PCCEC-10" time="0.412">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;sccode1 you have entered  is already in use&quot; : Actual value is &quot;sccode1 you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "sccode1 you have entered  is already in use" : Actual value is "sccode1 you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-06" time="0.362">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should be &quot;TUESDAY,FRIDAY&quot; : Actual value is &quot;FRIDAY,TUESDAY&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should be "TUESDAY,FRIDAY" : Actual value is "FRIDAY,TUESDAY"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TOutbound13" time="2.551">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;The Transport name https_rn  you have entered  is already in use&quot; : Actual value is &quot;The Transport name https_rn  you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "The Transport name https_rn  you have entered  is already in use" : Actual value is "The Transport name https_rn  you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="DOMAINTYPE-07" time="1.213">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should contains &quot;Auto Domain Type  you have entered  is already in use&quot; : Actual value is &quot;Auto Domain Type  you have entered  is already in use&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should contains "Auto Domain Type  you have entered  is already in use" : Actual value is "Auto Domain Type  you have entered  is already in use"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-02" time="0.452">
+            <failure type="java.lang.AssertionError"
+                  message="Expected value should be &quot;false&quot; : Actual value is &quot;&quot;"
+              >
+<![CDATA[java.lang.AssertionError: Expected value should be "false" : Actual value is ""
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)
+  sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-09" time="0.421">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPERN-03" time="0.401">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-04" time="1.136">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPE-08" time="0.472">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-10" time="0.473">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-ProtocolBinding" time="3.045">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-16" time="0.406">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RolesBinding-Search-11" time="0.393">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-OperationsNode1" time="0.653">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-02" time="1.213">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-tt1" time="0.524">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="Role_Group" time="0.480">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-10" time="0.663">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-04" time="1.271">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-Delete BA" time="1.113">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-05" time="1.888">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN020" time="0.410">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-11" time="0.444">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RNROLEERROR-01" time="1.391">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-02" time="1.336">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RosettaNetRoles-Get-4" time="0.474">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RN-CreatePARTNER-8" time="1.523">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RBERROR-05" time="0.346">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-18" time="1.757">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-03" time="0.518">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-05" time="0.401">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-04" time="0.457">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-16" time="0.498">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNERBA-01" time="1.398">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound10" time="0.369">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-01" time="2.272">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SCC-06" time="0.489">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENT-06" time="0.557">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-06" time="0.503">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN021" time="0.534">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATION-03" time="0.434">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RBERROR-02" time="3.834">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCode1" time="1.806">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-Delete Partner" time="0.896">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RolesBinding-Create-10" time="2.015">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-20" time="2.208">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-01" time="1.954">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-19" time="1.585">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RNROLEERROR-03" time="0.326">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-09" time="0.736">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-ast1" time="0.561">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN027" time="0.401">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-13" time="0.639">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-01" time="1.599">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-02" time="0.453">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-01" time="2.573">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-15" time="0.802">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Create-Syncoperation-3" time="2.289">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-11" time="0.464">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SCC-05" time="0.470">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-04" time="0.417">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-04" time="1.589">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-20" time="2.113">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-04" time="0.523">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENT-20" time="1.530">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-partner-20" time="0.644">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-12" time="0.508">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-02" time="2.556">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-02" time="0.563">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-11" time="3.207">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIOn-12" time="0.553">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SCC-01" time="1.244">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-03" time="1.142">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-Host" time="2.073">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="CONTACT-04" time="1.698">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-22" time="0.358">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-EnableProtocol-8" time="3.285">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-17" time="0.343">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RNROLEERROR-06" time="0.403">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOSTBA-04" time="0.507">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBD-07" time="2.416">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-08" time="1.063">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOSTBA-05" time="1.425">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-04" time="0.834">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXYERROR-05" time="1.635">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-Group01" time="0.947">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-13" time="1.753">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-11" time="1.520">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-07" time="0.520">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RosettaNetRoles-Create-1" time="1.745">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-PARTNER-5" time="1.286">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-12" time="0.464">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-03" time="1.924">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-Operation-16" time="0.451">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-16" time="1.712">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RosettaNetRoles-Delete-15" time="0.495">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-05" time="0.584">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SCC-02" time="0.409">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-07" time="0.520">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-CreateOperationBinding" time="1.595">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="MsgBus-4" time="0.483">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-09" time="0.387">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="CONTACT-06" time="0.448">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN006" time="2.362">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-04" time="0.366">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-2" time="0.434">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXYERROR-03" time="1.617">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="EmailPoller-1" time="1.988">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TBizAgreement5" time="1.600">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-01" time="2.793">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-01" time="0.568">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-11" time="0.930">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-12" time="0.798">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN004" time="0.409">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-11" time="0.623">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOST-05" time="0.840">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-06" time="0.388">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLBA-01" time="2.238">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-19" time="0.520">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-Group02" time="0.789">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-02" time="3.395">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATION-07" time="2.797">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-06" time="0.480">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound9" time="0.562">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-Group01" time="1.467">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-11" time="0.365">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Create-operation-2" time="0.855">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BAErrorCode-03" time="1.599">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN016" time="1.920">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBDPARTNER-01" time="1.282">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-tt2" time="0.490">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPE-09" time="1.198">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="GSInfor-2" time="0.504">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-15" time="0.476">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOST-04" time="0.427">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-05" time="1.963">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Create-Syncoperation-3" time="2.266">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-05" time="0.600">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-25" time="0.478">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXYERROR-06" time="0.405">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-03" time="0.473">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound16" time="0.331">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNERLOCATION-01" time="1.693">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENT-04" time="0.512">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN002" time="0.501">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="GatewayService-1" time="1.565">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBDHOST-02" time="1.598">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RBERROR-03" time="1.598">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-22" time="0.430">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN025" time="0.384">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-02" time="2.252">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="CONTACT-02" time="0.475">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-11" time="0.950">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOSTBA-03" time="0.383">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-EnableProtocol-6" time="2.347">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TEnableProtocolPartner4" time="3.109">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOST-20" time="1.904">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-Group04" time="0.540">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateBizAgre-7" time="2.272">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCode2" time="0.438">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SCC-07" time="0.390">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-15" time="0.523">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN005" time="2.217">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-08" time="1.462">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BAErrorCode-06" time="0.551">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-17" time="0.433">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-Group02" time="1.364">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-10" time="2.816">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-05" time="0.405">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-21" time="1.756">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-16" time="0.487">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound7" time="0.511">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BUSINESSAGREEMENTX12-02" time="0.490">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TPartner2" time="2.640">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-06" time="0.417">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-15" time="0.462">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="Feature-01" time="1.644">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-06" time="0.510">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCode4" time="0.406">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-05" time="1.910">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN010" time="0.403">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RolesBinding-Delete-14" time="0.380">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-21" time="2.167">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-15" time="0.480">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN015" time="1.672">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-08" time="0.479">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-01" time="0.430">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-04" time="0.545">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORTX12-01" time="3.549">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-03" time="0.681">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPE-02" time="0.412">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-01" time="1.367">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-23" time="0.648">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-ost2" time="0.479">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENT-07" time="0.617">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-12" time="1.081">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="CONTACT-05" time="0.382">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-02" time="1.161">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-05" time="0.737">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="GSInfor-3" time="0.589">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCode5" time="0.437">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-28" time="0.557">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-05" time="0.463">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Host-4" time="0.857">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-18" time="0.389">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Host-4" time="1.016">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-01" time="1.418">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPERN-09" time="0.404">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENT-05" time="0.526">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-1" time="2.531">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENT-01" time="1.596">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-24" time="0.478">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-02" time="2.246">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-15" time="0.381">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound11" time="0.387">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATION-06" time="0.435">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-12" time="0.451">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-07" time="0.662">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RosettaNetRoles-Update-3" time="2.209">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-11" time="0.450">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Outboundtrans-10" time="1.593">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN024" time="0.394">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATION-05" time="0.467">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-14" time="0.400">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-08" time="0.491">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TBizAgreement21" time="0.488">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN008" time="0.718">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-10" time="0.675">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-06" time="0.419">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-03" time="1.472">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-10" time="0.477">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-9" time="1.843">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-Delete Host" time="0.879">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBDHOST-04" time="0.641">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RBERROR-04" time="1.285">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOST-02" time="0.471">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-5" time="0.452">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-20" time="0.497">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-12" time="0.617">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="CONTACT-03" time="1.700">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="CONTACT-08" time="0.425">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-08" time="0.418">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-19" time="2.397">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-03" time="0.697">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-host-19" time="0.792">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound6" time="2.566">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-17" time="0.412">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="InstalledTProtocols-1" time="1.545">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="MsgBus-6" time="0.480">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBDOUTBTRANS-05" time="2.455">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding1" time="0.585">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN017" time="2.580">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-04" time="0.395">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-07" time="0.371">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-03" time="0.371">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-5" time="1.577">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-BZAgreement-18" time="0.543">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-BA" time="0.564">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-08" time="1.085">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-14" time="0.476">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-04" time="0.772">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-10" time="0.358">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-10" time="1.634">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound17" time="0.437">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="GatewayService-5" time="0.773">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOST-03" time="1.596">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNERX12-02" time="0.676">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-05" time="0.507">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-06" time="0.784">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="MsgBus-2" time="0.494">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-14" time="0.485">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TEnableProtocolHost3" time="2.529">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-7" time="0.439">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-05" time="2.082">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-23" time="0.370">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBDBIZID-04" time="1.450">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-09" time="0.585">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="GSInfor-1" time="1.238">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-08" time="0.455">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="INSTALLED PROTOCOLS-01" time="0.383">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-6" time="1.684">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-10" time="3.199">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound15" time="0.576">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-01" time="2.169">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCode3" time="1.466">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-06" time="2.735">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPERN-08" time="1.324">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN026" time="0.488">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATIONERROR-03" time="1.736">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="GatewayService-4" time="0.463">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-18" time="1.686">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RolesBinding-Search-12" time="0.554">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-Operation-13" time="0.459">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-07" time="0.516">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-11" time="0.351">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BAErrorCode-04" time="1.279">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBD-05" time="3.214">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="CONTACT-07" time="0.500">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXYERROR-01" time="1.584">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENT-03" time="0.523">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-01" time="0.634">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-12" time="0.430">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="MsgBus-3" time="2.434">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SCC-04" time="0.369">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-Enableprotocol1" time="3.221">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXYERROR-09" time="0.364">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPERN-05" time="0.390">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN001" time="1.737">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-10" time="0.575">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-23" time="1.663">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BAErrorCode-02" time="1.597">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-3" time="1.855">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-20" time="1.501">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="THOST23" time="0.635">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RBERROR-06" time="0.730">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-9" time="0.809">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-01" time="2.552">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-06" time="0.373">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXYERROR-08" time="0.377">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-29" time="0.466">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-08" time="0.502">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-7" time="1.661">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RosettaNetRoles-Get-2" time="0.434">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RNROLEERROR-07" time="0.427">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-9" time="3.517">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound12" time="2.456">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-01" time="0.902">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-BZAgreement-14" time="0.571">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOSTBA-01" time="1.724">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRS-01" time="0.722">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-02" time="1.292">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-07" time="1.596">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RosettaNetRoles-GetAll-7" time="0.939">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-21" time="1.702">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN018" time="1.255">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-06" time="1.207">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Create-operation-1" time="0.666">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-17" time="0.945">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-03" time="0.517">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-07" time="0.778">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-OutboundTransportRN" time="2.572">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-09" time="1.807">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNERBA-02" time="1.675">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-09" time="0.582">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-05" time="1.813">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-07" time="0.864">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="GatewayService-3" time="1.859">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-07" time="0.359">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-24" time="0.434">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-3" time="1.909">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-06" time="0.382">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPERN-06" time="0.481">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="INSTALLED PROTOCOLS-02" time="1.111">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATION-01" time="2.551">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATIONERROR-01" time="2.489">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Create-operation-1" time="1.609">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-PARTNER-5" time="1.691">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-02" time="1.397">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-13" time="0.478">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-20" time="2.380">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-ost1" time="0.475">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-14" time="0.545">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-06" time="0.496">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-32" time="0.610">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-OperationsNode0" time="1.361">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SCC-03" time="1.404">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBDPARTNER-05" time="0.623">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-09" time="0.469">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RNROLEERROR-04" time="0.390">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-10" time="0.748">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-01" time="1.809">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-03" time="1.282">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENTX12-01" time="1.432">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-31" time="0.524">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-6" time="1.835">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-08" time="1.063">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-22" time="0.628">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="CONTACT-01" time="1.599">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Outboundtrans-8" time="2.538">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-27" time="0.572">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-09" time="0.470">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-partner-16" time="0.681">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-05" time="1.413">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN003" time="0.591">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-Operation-17" time="0.435">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-04" time="0.501">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN019" time="0.368">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TOutbound14" time="0.413">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-host-15" time="1.087">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-2" time="0.413">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-8" time="1.631">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Create-operation-2" time="0.641">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNERBA-03" time="0.385">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="THOST1" time="0.902">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATION-02" time="0.446">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOSTS-21" time="0.611">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCode6" time="0.342">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN022" time="0.423">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOSTX12-02" time="0.718">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-15" time="0.895">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-02" time="0.530">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-9" time="1.728">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-03" time="2.495">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-07" time="2.272">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN014" time="0.961">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPERN-02" time="1.434">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN011" time="0.464">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-03" time="0.494">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-Delete operation node0" time="0.614">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXYERROR-07" time="1.486">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPERN-04" time="0.543">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNERBA-04" time="0.558">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPERN-01" time="1.244">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENT-02" time="1.605">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-04" time="1.642">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Outboundtrans-8" time="2.759">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNERX12-01" time="1.392">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-03" time="1.545">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-09" time="0.501">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-03" time="1.949">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-1" time="2.134">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-8" time="1.746">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RosettaNetRoles-Search-6" time="0.391">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPERN-07" time="0.380">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATIONERROR-02" time="1.123">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPE-01" time="1.331">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNERBA-05" time="0.626">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-04" time="0.614">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="MBERROR-01" time="0.336">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-02" time="0.656">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-21" time="0.868">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-EnableProtocol-6" time="2.238">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOSTBA-02" time="1.836">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-30" time="0.447">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-16" time="0.379">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-Delete-Operation-12" time="0.505">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOST-01" time="2.189">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-22" time="1.614">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-OperationsRequestResponsetransaction" time="2.235">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-24" time="0.453">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-Enableprotocol" time="2.844">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNER-Group03" time="0.659">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN023" time="0.520">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-05" time="0.708">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-18" time="0.458">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-ast2" time="0.483">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBDBIZID-05" time="0.640">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-11" time="1.528">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPE-05" time="0.419">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BIZAGREEMENT-21" time="0.508">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATION-04" time="1.651">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-OperationsNotifytransaction" time="2.064">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="TPartner22" time="0.626">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-05" time="1.507">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="HOSTX12-01" time="1.966">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-4" time="1.705">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-03" time="1.516">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-25" time="0.405">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RosettaNetRoles-Search-5" time="0.341">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-07" time="0.434">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPE-04" time="1.320">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN012" time="0.395">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="UserGroup-12" time="0.374">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="MsgBus-1" time="2.345">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-26" time="0.463">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-19" time="0.390">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="GatewayService-2" time="0.611">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN007" time="0.426">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RN-DeletePARTNER-13" time="0.611">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-01" time="3.421">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATION-20" time="1.998">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-DeleteOperationBinding" time="0.979">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN013" time="2.759">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-4" time="0.445">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-11" time="0.384">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PARTNERLOCATION-02" time="0.868">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBD-06" time="1.830">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPE-06" time="0.384">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-13" time="2.031">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-30" time="3.280">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="USER-14" time="0.714">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="LOCATION-08" time="0.508">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-10" time="2.639">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="MsgBus-5" time="1.504">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROXY-10" time="0.454">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OPERATIONS-RN009" time="0.445">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OBRN-Partner" time="1.597">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="RBERROR-01" time="0.660">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-07" time="0.428">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="ROLE-08" time="0.441">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-CreateBizAgre-7" time="1.427">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="IBTProtocol-2" time="2.027">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="BAErrorCode-05" time="0.356">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-02" time="0.467">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBD-08" time="2.718">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PCCEC-04" time="2.518">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="SR-21" time="0.468">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="PROTOCOLBD-04" time="2.886">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="EnableRNProtocol-9" time="3.271">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="DOMAINTYPE-03" time="0.400">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+      <testcase name="OB-EnableProtocol-7" time="3.521">
+            <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+  
+  
+  
+</testsuite>

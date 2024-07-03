@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Test1</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+  </head>
+<body>
+<h1>Test1</h1>
+<p>
+  Test duration: 15.842s
+   <br/><input type="checkbox" onclick="toggleAllResult(this)" value="result_p" checked="" id="top-filter" />
+<span class="pass-label">P</span>ass
+<input type="checkbox" onclick="toggleAllResult(this)" value="result_f" checked="" id="top-filter"/>
+<span class="fail-label">F</span>ail
+<input type="checkbox" onclick="toggleAllResult(this)" value="result_i" checked="" id="top-filter"/>
+<span class="info-label">I</span>nfo
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="100%" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="100%" class="group">			DataDrivenTestCases
+	</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+          ROLE-05
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.783s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"ROLE-05", "POST", "/roles", null, "application/json", "{
+  "roleName": "Auto Role Edited",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}", "$..errorCode,$..errorMsg", "=,~", "["BCCE-3303","Auto Role Edited  you have entered  is already in use"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div><div  class="fail"><span class="fail-label">F </span>Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"</div></div>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b><span style="color:red">F </span>java.lang.AssertionError: Expected value should contains &quot;Auto Role Edited&nbsp; you have entered&nbsp; is already in use&quot; : Actual value is &quot;Auto Role Edited&nbsp; you have entered&nbsp; is already in use&quot;</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)<br />
+              com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)<br />
+              com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)<br />
+              com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.TestNG.privateMain(TestNG.java:1442)<br />
+              org.testng.TestNG.main(TestNG.java:1411)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="100%" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="100%" class="group">			DataDrivenTestCases
+	</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+          Feature-01
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    1.994s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Feature-01", "GET", "/features", null, "application/json", null, "$[0]..category", "~", "["Data"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//Feature-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should contains "Data" : Actual value is "Data"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          ROLE-01
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.815s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"ROLE-01", "POST", "/roles", null, "application/json", "{
+  "roleName": "Auto Role",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}", "$..roleID", "!=", "["[]"]", "roleID01", null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?D8E8FD53-37F0-48DF-A61B-6A47606BC5A5"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          ROLE-02
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.808s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"ROLE-02", "GET", "/roles/${ROLE-01.roleID01}", null, "application/json", null, "$..roleName", "=", "["Auto Role"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role" : Actual value is "Auto Role"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          ROLE-03
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.865s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"ROLE-03", "POST", "/roles/search", null, "application/json", "{
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "roleName",
+  "ascOrder": true
+}", "$..totalRowNum", "!=", "["0"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          ROLE-04
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.843s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"ROLE-04", "PUT", "/roles/${ROLE-01.roleID01}", null, "application/json", "{
+  "roleName": "Auto Role Edited",
+"description": "Role Auto Desc Edited",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": true
+    }
+  ]
+}", "$..roleID", "!=", "["[]"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?D8E8FD53-37F0-48DF-A61B-6A47606BC5A5"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          ROLE-06
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.767s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"ROLE-06", "GET", "/roles/${ROLE-01.roleID01}", null, "application/json", null, "$..roleName", "=", "["Auto Role Edited"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role Edited" : Actual value is "Auto Role Edited"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          ROLE-07
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.786s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"ROLE-07", "POST", "/roles/delete", null, "application/json", "{
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}", "$..errorCode", "=", "["BCCE-3202"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 409</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3202" : Actual value is "BCCE-3202"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          ROLE-08
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.769s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"ROLE-08", "POST", "/roles/delete", null, "application/json", "{
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}", "$..roleIDs", "!=", "["'[]'"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-08.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "Role?D8E8FD53-37F0-48DF-A61B-6A47606BC5A5"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          USER-01
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.879s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"USER-01", "POST", "/users", null, "application/json", "{
+  "userType": "Internal",
+  "userName": "Auto user",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}", "$..userID", "!=", "["[]"]", "userID01", null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?04CD2DD0-3AC2-4CBA-A830-DB67BB75E9E9"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          USER-02
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.885s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"USER-02", "GET", "/users/${USER-01.userID01}", null, "application/json", null, "$..userName", "=", "["Auto user"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user" : Actual value is "Auto user"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          USER-03
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.863s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"USER-03", "POST", "/users/search", null, "application/json", "{
+  "criteria": "auto user",
+  "userType": "Internal",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "userName",
+  "ascOrder": true
+}", "$..totalRowNum", "!=", "["0"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          USER-04
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.825s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"USER-04", "PUT", "/users/${USER-01.userID01}", null, "application/json", "{
+  "userType": "Internal",
+  "userName": "Auto user Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}", "$..userID", "!=", "["[]"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?04CD2DD0-3AC2-4CBA-A830-DB67BB75E9E9"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          USER-05
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.772s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"USER-05", "POST", "/users", null, "application/json", "{
+  "userType": "Internal",
+  "userName": "Auto User Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+  "'${ROLE-01.roleID01}'"
+  ]
+}", "$..errorCode", "=", "["BCCE-3303"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          USER-06
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.764s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"USER-06", "GET", "/users/${USER-01.userID01}", null, "application/json", null, "$..userName", "=", "["Auto user Edited"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user Edited" : Actual value is "Auto user Edited"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          USER-07
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.821s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"USER-07", "POST", "/users/delete", null, "application/json", "{
+  "userIDs": [
+    "${USER-01.userID01}"
+  ]
+}", "$..userIDs", "!=", "["'[]'"]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "User?04CD2DD0-3AC2-4CBA-A830-DB67BB75E9E9"</div></div>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

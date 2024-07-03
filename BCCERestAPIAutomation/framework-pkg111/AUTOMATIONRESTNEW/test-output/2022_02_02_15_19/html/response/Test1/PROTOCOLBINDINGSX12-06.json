@@ -1,0 +1,1 @@
+{"properties":[{"id":"IsEnabled","value":"true"},{"id":"TransmissionWindow","value":"Day Of Week"},{"id":"StartTime","value":"0:0"},{"id":"EndTime","value":"23:59"},{"id":"ScheduledDays","value":"FRIDAY,TUESDAY"},{"id":"ScheduledDates","value":" "},{"id":"TimeInterval","value":"Every 15 mins"},{"id":"MaxNumOfTransactions","value":"3"}]}

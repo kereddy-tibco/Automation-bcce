@@ -1,0 +1,1 @@
+{"outboundTransportSettings":[{"id":"primaryOBTransport","value":"HTTPS"},{"id":"asyncMDNOBTransport","value":"HTTPS"},{"id":"asyncMDNServerCert","value":null},{"id":"clientAuthKey","value":null},{"id":"clientAuthKeySSHFTP","value":null}],"inboundTransports":[{"transportType":"HTTP","transportID":"ChannelInfo?8B2FB706-C4DA-4F1A-8E20-BEBDFA1A15B8","isEnabled":true}]}

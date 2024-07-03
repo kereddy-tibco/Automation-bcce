@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.tibco.rest.listeners.Listeners"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.tibco.rest.test.DataDrivenTestCases">
+        <methods>
+          <include name="testcase" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"/>
+          <include name="setupMethod"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.tibco.rest.test.DataDrivenTestCases -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

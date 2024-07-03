@@ -1,0 +1,1 @@
+{"roleName":"Auto Role Edited","description":"Role Auto Desc Edited","featurePermission":[{"category":"Data Viewer","features":[{"featureID":1,"featureName":"Audit Trail","subCategory":null,"isRead":true,"isWrite":true}]},{"category":"System Settings","features":[{"featureID":11,"featureName":"Inbound Protocols","subCategory":null,"isRead":true,"isWrite":true}]}]}

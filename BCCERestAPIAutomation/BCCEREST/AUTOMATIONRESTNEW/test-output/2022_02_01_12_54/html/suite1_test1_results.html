@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Test1</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+  </head>
+<body>
+<h1>Test1</h1>
+<p>
+  Test duration: 4.035s
+   <br/><input type="checkbox" onclick="toggleAllResult(this)" value="result_p" checked="" id="top-filter" />
+<span class="pass-label">P</span>ass
+<input type="checkbox" onclick="toggleAllResult(this)" value="result_f" checked="" id="top-filter"/>
+<span class="fail-label">F</span>ail
+<input type="checkbox" onclick="toggleAllResult(this)" value="result_i" checked="" id="top-filter"/>
+<span class="info-label">I</span>nfo
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="100%" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="100%" class="group">			DataDrivenTestCases
+	</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+          HK-1797
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.113s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"HK-1797", "GET", "/tcpdomain/none/DockerHawk3/Microagent", null, null, null, "$..name", "~", "[[
+  "COM.TIBCO.hawk.microagent.DockerHostMA",
+  "COM.TIBCO.hawk.microagent.LMIContainerMA",
+  "com.tibco.hawk.BWCEHawkMicroagent",
+  "COM.TIBCO.hawk.microagent.TcpClusterStatus",
+  "COM.TIBCO.hawk.microagent.TcpMessaging",
+  "com.tibco.hawk.BWCEHawkMicroagent",
+  "COM.TIBCO.hawk.microagent.Self",
+  "COM.TIBCO.hawk.microagent.RuleBaseEngine",
+  "SamplePluginMicroagent",
+  "COM.TIBCO.hawk.microagent.SysInfo"
+]]", null, null, "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//HK-1797.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="fail"><span class="fail-label">F </span>Expected value should contains "["COM.TIBCO.hawk.microagent.DockerHostMA","COM.TIBCO.hawk.microagent.LMIContainerMA","com.tibco.hawk.BWCEHawkMicroagent","COM.TIBCO.hawk.microagent.TcpClusterStatus","COM.TIBCO.hawk.microagent.TcpMessaging","com.tibco.hawk.BWCEHawkMicroagent","COM.TIBCO.hawk.microagent.Self","COM.TIBCO.hawk.microagent.RuleBaseEngine","SamplePluginMicroagent","COM.TIBCO.hawk.microagent.SysInfo"]" : Actual value is "["COM.TIBCO.hawk.microagent.DockerHostMA","COM.TIBCO.hawk.microagent.LMIContainerMA","com.tibco.hawk.BWCEHawkMicroagent","COM.TIBCO.hawk.microagent.TcpClusterStatus","COM.TIBCO.hawk.microagent.TcpMessaging","com.tibco.hawk.BWCEHawkMicroagent","COM.TIBCO.hawk.microagent.Self","COM.TIBCO.hawk.microagent.RuleBaseEngine","SamplePluginMicroagent","COM.TIBCO.hawk.microagent.SysInfo"]"</div></div>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b><span style="color:red">F </span>java.lang.AssertionError: Expected value should contains &quot;[&quot;COM.TIBCO.hawk.microagent.DockerHostMA&quot;,&quot;COM.TIBCO.hawk.microagent.LMIContainerMA&quot;,&quot;com.tibco.hawk.BWCEHawkMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.TcpClusterStatus&quot;,&quot;COM.TIBCO.hawk.microagent.TcpMessaging&quot;,&quot;com.tibco.hawk.BWCEHawkMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.Self&quot;,&quot;COM.TIBCO.hawk.microagent.RuleBaseEngine&quot;,&quot;SamplePluginMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.SysInfo&quot;]&quot; : Actual value is &quot;[&quot;COM.TIBCO.hawk.microagent.DockerHostMA&quot;,&quot;COM.TIBCO.hawk.microagent.LMIContainerMA&quot;,&quot;com.tibco.hawk.BWCEHawkMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.TcpClusterStatus&quot;,&quot;COM.TIBCO.hawk.microagent.TcpMessaging&quot;,&quot;com.tibco.hawk.BWCEHawkMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.Self&quot;,&quot;COM.TIBCO.hawk.microagent.RuleBaseEngine&quot;,&quot;SamplePluginMicroagent&quot;,&quot;COM.TIBCO.hawk.microagent.SysInfo&quot;]&quot;</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)<br />
+              com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)<br />
+              com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)<br />
+              com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:377)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.TestNG.privateMain(TestNG.java:1442)<br />
+              org.testng.TestNG.main(TestNG.java:1411)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          TEST7
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.216s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"TEST7", "POST", "/logout", "null", "null", "null", "null", "null", "null", "null", "null", "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//TEST7.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="fail"><span class="fail-label">F </span>Response Code is 500</div></div>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b><span style="color:red">F </span>java.lang.AssertionError: Response Code is 500</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)<br />
+              com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:460)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.TestNG.privateMain(TestNG.java:1442)<br />
+              org.testng.TestNG.main(TestNG.java:1411)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          test1
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    1.838s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"test1", "GET", "/Domain", null, null, null, "$.[?(@.name=='tcpdomain')].name", "=", "["tcpdomain"]", "domainName", "null", "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//test1.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 500</div><div  class="fail"><span class="fail-label">F </span>Expected value should be "tcpdomain" : Actual value is "[]"</div></div>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b><span style="color:red">F </span>java.lang.AssertionError: Expected value should be &quot;tcpdomain&quot; : Actual value is &quot;[]&quot;</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)<br />
+              com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)<br />
+              com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)<br />
+              com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:344)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.TestNG.privateMain(TestNG.java:1442)<br />
+              org.testng.TestNG.main(TestNG.java:1411)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          test2
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.045s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"test2", "GET", "/Domain/${test1.domainName}", null, null, null, "$..hawk_transport", "=", "["tibtcp"]", "null", "null", "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b><span style="color:red">F </span>java.net.URISyntaxException: Illegal character in path at index 42: http://10.102.168.175:30001/cms/v1/Domain/[]</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              java.net.URI$Parser.fail(Unknown Source)<br />
+              java.net.URI$Parser.checkChars(Unknown Source)<br />
+              java.net.URI$Parser.parseHierarchical(Unknown Source)<br />
+              java.net.URI$Parser.parse(Unknown Source)<br />
+              java.net.URI.&lt;init&gt;(Unknown Source)<br />
+              io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)<br />
+              io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)<br />
+              io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)<br />
+              io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)<br />
+              io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)<br />
+              com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.TestNG.privateMain(TestNG.java:1442)<br />
+              org.testng.TestNG.main(TestNG.java:1411)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          test3
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.053s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"test3", "GET", "/Domain/${test1.domainName}", null, null, null, "$..hawk_transport", "=", "["tibtcp"]", null, "null", "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b><span style="color:red">F </span>java.net.URISyntaxException: Illegal character in path at index 42: http://10.102.168.175:30001/cms/v1/Domain/[]</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              java.net.URI$Parser.fail(Unknown Source)<br />
+              java.net.URI$Parser.checkChars(Unknown Source)<br />
+              java.net.URI$Parser.parseHierarchical(Unknown Source)<br />
+              java.net.URI$Parser.parse(Unknown Source)<br />
+              java.net.URI.&lt;init&gt;(Unknown Source)<br />
+              io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)<br />
+              io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)<br />
+              io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)<br />
+              io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)<br />
+              io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)<br />
+              com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.TestNG.privateMain(TestNG.java:1442)<br />
+              org.testng.TestNG.main(TestNG.java:1411)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+          test6
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    0.053s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"test6", "GET", "/Domain/${test1.domainName}", null, null, "null", "null", "=", "{"hawk_transport":"tibtcp","tcp_session":"hawkconsole:2551 hawkclustermanager:2561","securityPolicy":"","dns":["none"],"aliveAgentCount":1,"deadAgentCount":0,"scheduleCount":2,"rulebaseCount":9,"name":"tcpdomain","state":"Running"}", "null", "null", "null"</span><br />
+    
+            <div class="testOutput">
+                        <div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo</div>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b><span style="color:red">F </span>java.net.URISyntaxException: Illegal character in path at index 42: http://10.102.168.175:30001/cms/v1/Domain/[]</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              java.net.URI$Parser.fail(Unknown Source)<br />
+              java.net.URI$Parser.checkChars(Unknown Source)<br />
+              java.net.URI$Parser.parseHierarchical(Unknown Source)<br />
+              java.net.URI$Parser.parse(Unknown Source)<br />
+              java.net.URI.&lt;init&gt;(Unknown Source)<br />
+              io.restassured.internal.http.URIBuilder.convertToURI(URIBuilder.java:91)<br />
+              io.restassured.internal.http.URIBuilder$convertToURI.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.generateRequestUriForLogging(RequestSpecificationImpl.groovy:1193)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)<br />
+              io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1154)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1729)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)<br />
+              io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)<br />
+              io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)<br />
+              com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:210)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.TestNG.privateMain(TestNG.java:1442)<br />
+              org.testng.TestNG.main(TestNG.java:1411)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>

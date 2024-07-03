@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="20" passed="15">
+  <reporter-output>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//Feature-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should contains "Data" : Actual value is "Data"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?87A0FE4B-09BC-41DC-9345-B798C4102056"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?D322F852-1288-40A3-9513-ACA2D47A61F3"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role" : Actual value is "Auto Role"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user" : Actual value is "Auto user"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?87A0FE4B-09BC-41DC-9345-B798C4102056"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div><div  class="fail"><span class="fail-label">F </span>Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role Edited" : Actual value is "Auto Role Edited"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?D322F852-1288-40A3-9513-ACA2D47A61F3"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user Edited" : Actual value is "Auto user Edited"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 409</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3202" : Actual value is "BCCE-3202"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "User?D322F852-1288-40A3-9513-ACA2D47A61F3"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-08.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "Role?87A0FE4B-09BC-41DC-9345-B798C4102056"</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16324" started-at="2021-08-23T12:23:55Z" finished-at="2021-08-23T12:24:11Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="16324" started-at="2021-08-23T12:23:55Z" finished-at="2021-08-23T12:24:11Z">
+      <class name="com.tibco.rest.restAssured.RestAssuredConfiguration">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.restAssured.RestAssuredConfiguration@3d921e20]" test-instance-name="" name="setup" is-config="true" duration-ms="1602" started-at="2021-08-23T17:53:55Z" finished-at="2021-08-23T17:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tibco.rest.restAssured.RestAssuredConfiguration@3d921e20]" test-instance-name="" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:11Z" finished-at="2021-08-23T17:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.tibco.rest.restAssured.RestAssuredConfiguration -->
+      <class name="com.tibco.rest.test.DataDrivenTestCases">
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="8" started-at="2021-08-23T17:53:58Z" finished-at="2021-08-23T17:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@30af7377]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="1981" started-at="2021-08-23T17:53:58Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Feature-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/features]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$[0]..category]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[~]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["Data"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//Feature-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should contains "Data" : Actual value is "Data"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:00Z" finished-at="2021-08-23T17:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Feature-01 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//Feature-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should contains "Data" : Actual value is "Data"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@30af7377]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="735" started-at="2021-08-23T17:54:00Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROLE-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/roles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "roleName": "Auto Role",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..roleID]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[!=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["[]"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[roleID01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?87A0FE4B-09BC-41DC-9345-B798C4102056"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:00Z" finished-at="2021-08-23T17:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@67a056f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:01Z" finished-at="2021-08-23T17:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ROLE-01 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?87A0FE4B-09BC-41DC-9345-B798C4102056"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@67a056f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="7" started-at="2021-08-23T17:54:01Z" finished-at="2021-08-23T17:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1dab9dd6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="847" started-at="2021-08-23T17:54:01Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USER-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "userType": "Internal",
+  "userName": "Auto user",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..userID]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[!=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["[]"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[userID01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?D322F852-1288-40A3-9513-ACA2D47A61F3"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:01Z" finished-at="2021-08-23T17:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=USER-01 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-01.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?D322F852-1288-40A3-9513-ACA2D47A61F3"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1dab9dd6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="6" started-at="2021-08-23T17:54:01Z" finished-at="2021-08-23T17:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@247667dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="792" started-at="2021-08-23T17:54:01Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROLE-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/roles/${ROLE-01.roleID01}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..roleName]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["Auto Role"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role" : Actual value is "Auto Role"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:02Z" finished-at="2021-08-23T17:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ROLE-02 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role" : Actual value is "Auto Role"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@247667dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="2" started-at="2021-08-23T17:54:02Z" finished-at="2021-08-23T17:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6f099cef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="853" started-at="2021-08-23T17:54:02Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USER-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/users/${USER-01.userID01}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..userName]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["Auto user"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user" : Actual value is "Auto user"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:03Z" finished-at="2021-08-23T17:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=USER-02 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-02.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user" : Actual value is "Auto user"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6f099cef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="10" started-at="2021-08-23T17:54:03Z" finished-at="2021-08-23T17:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@afb5821]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="674" started-at="2021-08-23T17:54:03Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROLE-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/roles/search]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "criteria": "AUTO ROLE",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "roleName",
+  "ascOrder": true
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..totalRowNum]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[!=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["0"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:04Z" finished-at="2021-08-23T17:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4bff2185]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:04Z" finished-at="2021-08-23T17:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ROLE-03 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@afb5821]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="763" started-at="2021-08-23T17:54:04Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USER-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/users/search]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "criteria": "auto user",
+  "userType": "Internal",
+  "pageNum": 1,
+  "maxRowCount": 1,
+  "sortBy": "userName",
+  "ascOrder": true
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..totalRowNum]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[!=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["0"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:05Z" finished-at="2021-08-23T17:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=USER-03 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-03.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "0" : Actual value is "1"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4bff2185]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="6" started-at="2021-08-23T17:54:05Z" finished-at="2021-08-23T17:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5c20ffa8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="721" started-at="2021-08-23T17:54:05Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROLE-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PUT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/roles/${ROLE-01.roleID01}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "roleName": "Auto Role Edited",
+"description": "Role Auto Desc Edited",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": true
+    }
+  ]
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..roleID]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[!=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["[]"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?87A0FE4B-09BC-41DC-9345-B798C4102056"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:05Z" finished-at="2021-08-23T17:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ROLE-04 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "Role?87A0FE4B-09BC-41DC-9345-B798C4102056"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5c20ffa8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="4" started-at="2021-08-23T17:54:05Z" finished-at="2021-08-23T17:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7fedfe27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="794" started-at="2021-08-23T17:54:05Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROLE-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/roles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "roleName": "Auto Role Edited",
+  "description": "Role Auto Desc",
+  "featurePermissions": [
+    {
+      "featureID": 1,
+      "isRead": true,
+      "isWrite": true
+    },
+{
+      "featureID": 11,
+      "isRead": true,
+      "isWrite": false
+    }
+  ]
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..errorCode,$..errorMsg]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[=,~]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["BCCE-3303","Auto Role Edited  you have entered  is already in use"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"
+	at com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+	at com.tibco.rest.restAssured.Assertions.assertContains(Assertions.java:212)
+	at com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:533)
+	at com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div><div  class="fail"><span class="fail-label">F </span>Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:06Z" finished-at="2021-08-23T17:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ROLE-05 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div><div  class="fail"><span class="fail-label">F </span>Expected value should contains "Auto Role Edited  you have entered  is already in use" : Actual value is "Auto Role Edited  you have entered  is already in use"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7fedfe27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="10" started-at="2021-08-23T17:54:06Z" finished-at="2021-08-23T17:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2f879bab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="729" started-at="2021-08-23T17:54:06Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROLE-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/roles/${ROLE-01.roleID01}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..roleName]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["Auto Role Edited"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role Edited" : Actual value is "Auto Role Edited"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:07Z" finished-at="2021-08-23T17:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ROLE-06 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto Role Edited" : Actual value is "Auto Role Edited"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2f879bab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="7" started-at="2021-08-23T17:54:07Z" finished-at="2021-08-23T17:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1d4664d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="850" started-at="2021-08-23T17:54:07Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USER-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PUT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/users/${USER-01.userID01}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "userType": "Internal",
+  "userName": "Auto user Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+]
+  
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..userID]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[!=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["[]"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?D322F852-1288-40A3-9513-ACA2D47A61F3"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:08Z" finished-at="2021-08-23T17:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=USER-04 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-04.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "[]" : Actual value is "User?D322F852-1288-40A3-9513-ACA2D47A61F3"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1d4664d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="628" started-at="2021-08-23T17:54:08Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USER-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "userType": "Internal",
+  "userName": "Auto User Edited",
+  "password": "password",
+  "email": "auto@test.com",
+  "roleIDs": [
+  "'${ROLE-01.roleID01}'"
+  ]
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..errorCode]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["BCCE-3303"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:08Z" finished-at="2021-08-23T17:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@46c00568]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:08Z" finished-at="2021-08-23T17:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=USER-05 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-05.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 400</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3303" : Actual value is "BCCE-3303"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@46c00568]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="6" started-at="2021-08-23T17:54:08Z" finished-at="2021-08-23T17:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@56ccd751]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="688" started-at="2021-08-23T17:54:08Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USER-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/users/${USER-01.userID01}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..userName]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["Auto user Edited"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user Edited" : Actual value is "Auto user Edited"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:09Z" finished-at="2021-08-23T17:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=USER-06 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-06.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "Auto user Edited" : Actual value is "Auto user Edited"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@56ccd751]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:09Z" finished-at="2021-08-23T17:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@458544e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="755" started-at="2021-08-23T17:54:09Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROLE-07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/roles/delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..errorCode]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["BCCE-3202"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 409</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3202" : Actual value is "BCCE-3202"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-23T17:54:10Z" finished-at="2021-08-23T17:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ROLE-07 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 409</div><div  class="pass"><span class="pass-label">P </span>Expected value should be "BCCE-3202" : Actual value is "BCCE-3202"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@458544e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:10Z" finished-at="2021-08-23T17:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6bcbf05b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="686" started-at="2021-08-23T17:54:10Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USER-07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/users/delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "userIDs": [
+    "${USER-01.userID01}"
+  ]
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..userIDs]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[!=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["'[]'"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "User?D322F852-1288-40A3-9513-ACA2D47A61F3"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-23T17:54:11Z" finished-at="2021-08-23T17:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=USER-07 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//USER-07.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "User?D322F852-1288-40A3-9513-ACA2D47A61F3"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6bcbf05b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod([Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="setupMethod" is-config="true" duration-ms="3" started-at="2021-08-23T17:54:11Z" finished-at="2021-08-23T17:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2d66530f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="testcase" duration-ms="690" started-at="2021-08-23T17:54:11Z" data-provider="GetTCData" finished-at="2021-08-23T17:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROLE-08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/roles/delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[{
+  "roleIDs": [
+   "${ROLE-01.roleID01}"
+  ]
+}]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$..roleIDs]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[!=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[["'[]'"]]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-08.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "Role?87A0FE4B-09BC-41DC-9345-B798C4102056"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0]" test-instance-name="ROLE-08" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-08-23T17:54:11Z" finished-at="2021-08-23T17:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71c905a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ROLE-08 status=FAILURE method=DataDrivenTestCases.testcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tibco.rest.test.DataDrivenTestCases@36b4cef0] output=<div class="result_pshow result_fshow result_ishow" > <input checked type="checkbox" value="result_p" onclick="toggleResult(this)"/><span class="pass-label">P</span>ass<input checked type="checkbox" value="result_f" onclick="toggleResult(this)"/><span class="fail-label">F</span>ail<input checked type="checkbox" value="result_i" onclick="toggleResult(this)"/><span class="info-label">I</span>nfo<div  class="info"><span class="info-label">I </span> <a href="response/Test1//ROLE-08.json" target="_blank">[View Response]</a> </div><div  class="info"><span class="info-label">I </span>Response Code : 200</div><div  class="pass"><span class="pass-label">P </span>Expected value should not be "'[]'" : Actual value is "Role?87A0FE4B-09BC-41DC-9345-B798C4102056"</div></div>]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2d66530f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.tibco.rest.test.DataDrivenTestCases -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
