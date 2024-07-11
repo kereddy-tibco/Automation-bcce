@@ -1,0 +1,1 @@
+[{"level":"node0","interfaceID":"InterfaceComponent?FB7DC740-00DB-47C2-9F2D-0F60C1BE8FF6","name":"Auto RESTAPI SOAP node0","description":"SOAP node0 Operation","type":"Interface","children":[{"level":"node1","interfaceID":"InterfaceComponent?F7613199-308E-42B3-89E3-1D602278EC1C","name":"SOAP Auto node1","description":"SOAP node1 Operation","type":"Version","children":[]}]}]

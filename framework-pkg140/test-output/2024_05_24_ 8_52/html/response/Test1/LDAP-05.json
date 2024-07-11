@@ -1,0 +1,1 @@
+{"totalRowNum":1,"pageNum":1,"maxRowCount":1,"rows":[{"ldapId":"LdapInfo?32357EA4-84B6-41AD-B747-27BCAB50E4C3","alias":"ldap_Auto1","priority":2,"hostName":"10.102.11.12","portNumber":"369","bindDN":"bc=dev1","readOnly":true,"enabled":false,"secure":true}]}

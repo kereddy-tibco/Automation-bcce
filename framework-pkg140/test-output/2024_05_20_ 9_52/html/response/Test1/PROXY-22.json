@@ -1,0 +1,1 @@
+{"proxyName":"smtp_proxy3","proxyType":"SMTP","properties":[{"id":"password","value":"********"},{"id":"serverCert","value":null},{"id":"smtpServerName","value":"10.102.25.39"},{"id":"transMode","value":"TLSv1.2"},{"id":"username","value":"admin"}]}

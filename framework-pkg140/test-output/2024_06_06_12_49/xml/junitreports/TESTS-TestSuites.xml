@@ -1,0 +1,2060 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites failures="674" name="RESTAPIAutomationSuites" tests="674" time="94.622"><testsuite errors="0" failures="674" name="com.tibco.rest.test.DataDrivenTestCases" skipped="0" tests="674" time="94.622">
+  <properties/>
+      <testcase name="USER-05" time="0.048">
+            <failure message="Expected value should be &quot;BCCE-3303&quot; : Actual value is &quot;BCCE-3201&quot;" type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError: Expected value should be "BCCE-3303" : Actual value is "BCCE-3201"
+  com.tibco.rest.restAssured.Assertions.assertTrue(Assertions.java:166)
+  com.tibco.rest.restAssured.Assertions.assertEquals(Assertions.java:183)
+  com.tibco.rest.test.DataDrivenTestCases.verifyResponse(DataDrivenTestCases.java:508)
+  com.tibco.rest.test.DataDrivenTestCases.testcase(DataDrivenTestCases.java:352)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TEnableProtocolPartner4" time="0.531">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-04" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-06" time="0.069">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-Operation-13" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-13" time="0.030">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOST-01" time="0.520">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-12" time="0.035">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-21" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATION-07" time="0.182">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="Feature-01" time="1.156">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-8" time="0.256">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-06" time="0.060">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="CONTACT-02" time="0.039">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-CreateOperationBinding" time="0.285">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-10" time="0.313">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOSTX12-01" time="0.251">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-04" time="0.098">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENT-07" time="0.235">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RBERROR-01" time="0.080">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-14" time="0.066">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-Operation-16" time="0.050">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="CONTACT-07" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-21" time="0.107">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENT-03" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATION-06" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOST-05" time="0.034">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RosettaNetRoles-Get-2" time="0.046">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-Group02" time="0.158">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-09" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-31" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-10" time="0.080">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBDPARTNER-01" time="0.065">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-15" time="0.076">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-05" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-03" time="0.219">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Host-4" time="0.142">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-ost1" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TOutbound9" time="0.207">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-14" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-07" time="0.137">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLBA-01" time="0.313">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-03" time="0.141">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBDPARTNER-05" time="0.095">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LDAP-01" time="0.168">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-04" time="0.335">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-04" time="0.180">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-09" time="0.402">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-18" time="0.208">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RolesBinding-Search-11" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-09" time="0.159">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-11" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-02" time="0.128">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATION-04" time="0.220">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-05" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-13" time="0.033">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RosettaNetRoles-Update-3" time="0.177">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBD-06" time="0.440">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-02" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-14" time="0.144">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-18" time="0.222">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-01" time="0.143">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-03" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-31" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN013" time="0.270">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-16" time="0.017">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RNROLEERROR-01" time="0.015">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-05" time="0.266">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-15" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BAErrorCode-05" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBDHOST-02" time="0.238">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-02" time="0.015">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-19" time="0.374">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-17" time="0.043">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-tt1" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-09" time="0.046">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-19" time="0.085">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RBERROR-05" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="CONTACT-05" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBD-04" time="0.293">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-07" time="0.018">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIOn-12" time="0.081">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-Enableprotocol" time="0.317">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-25" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-tt2" time="0.053">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOSTBA-03" time="0.041">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-DeleteOperationBinding" time="0.079">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-22" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-06" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN015" time="0.207">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-17" time="0.145">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLSOAP-06" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-OperationsNode1" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCode4" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-21" time="0.232">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-25" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-17" time="0.158">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-05" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-24" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-01" time="0.139">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLSOAP-05" time="0.190">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-08" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="MsgBus-1" time="0.253">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-Partner" time="0.176">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-04" time="0.092">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-32" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-06" time="0.079">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-15" time="0.093">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-2" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-16" time="0.110">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="MsgBus-5" time="0.222">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SCC-03" time="0.143">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBD-08" time="0.445">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-12" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPPROTOCOLBINDINGS-20" time="0.271">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateBizAgre-7" time="0.177">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-32" time="0.042">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-07" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENT-21" time="0.250">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-04" time="0.026">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-02" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-21" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPBIZAGREEMENT-20" time="0.188">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-22" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-23" time="0.087">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-12" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-07" time="0.036">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-09" time="0.050">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-05" time="0.438">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LDAP-05" time="0.050">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-29" time="0.043">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATION-02" time="0.055">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="CONTACT-08" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN002" time="0.013">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-ast2" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-23" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-11" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-24" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-04" time="0.030">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-05" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-16" time="0.076">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-02" time="0.188">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-39" time="0.223">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENT-05" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-01" time="0.079">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-10" time="0.026">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-04" time="0.041">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-1" time="0.130">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TOutbound10" time="0.043">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-20" time="0.161">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-19" time="0.213">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-13" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SCC-01" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-04" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-03" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATION-03" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RN-DeletePARTNER-13" time="0.219">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-03" time="0.059">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-19" time="0.221">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="GatewayService-5" time="0.080">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-11" time="0.049">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RolesBinding-Search-12" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-Group01" time="0.056">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-08" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-19" time="0.227">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPE-08" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-07" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLSOAP-04" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN026" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPHOST-20" time="0.209">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Create-Syncoperation-3" time="0.270">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-08" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-28" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOSTBA-01" time="0.250">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-12" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-25" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TOutbound8" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="GSInfor-2" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNERLOCATION-02" time="0.204">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-15" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RNROLEERROR-08" time="0.039">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-14" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-BZAgreement-14" time="0.202">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBD-07" time="0.254">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-20" time="0.344">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-07" time="0.123">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-10" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-04" time="0.080">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN027" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-10" time="0.281">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN021" time="0.079">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPE-06" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-03" time="0.034">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-21" time="0.266">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-11" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBDBIZID-04" time="0.191">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RNROLEERROR-02" time="0.112">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN012" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-09" time="0.205">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RosettaNetRoles-Create-1" time="0.025">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-03" time="0.286">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENT-06" time="0.160">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENT-20" time="0.190">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-07" time="0.241">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-07" time="0.072">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-14" time="0.238">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-18" time="0.037">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TBizAgreement21" time="0.213">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-08" time="0.221">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-EnableProtocol-6" time="0.316">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-23" time="0.249">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RNROLEERROR-06" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="MBERROR-01" time="0.015">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LDAP-04" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-09" time="0.223">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-06" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN023" time="0.023">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-27" time="0.040">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBD-05" time="0.467">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPENABLEDPROTOCOL-20" time="0.303">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RolesBinding-Create-10" time="0.220">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNERBA-02" time="0.172">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-08" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="CONTACT-06" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNERBA-04" time="0.089">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-18" time="0.241">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-02" time="0.303">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BAErrorCode-06" time="0.093">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-02" time="0.592">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="MsgBus-4" time="0.024">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-5" time="0.255">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN001" time="0.035">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-host-15" time="0.110">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-29" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPE-01" time="0.155">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-06" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-05" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-OperationsNotifytransaction" time="0.271">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-Delete BA" time="0.199">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RBERROR-06" time="0.200">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-07" time="0.033">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RosettaNetRoles-GetAll-7" time="0.042">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-23" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN018" time="0.155">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATIONERROR-03" time="0.171">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENT-01" time="0.251">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPE-05" time="0.036">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOSTBA-02" time="0.312">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-11" time="0.030">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-Delete Partner" time="0.082">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-17" time="0.147">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-8" time="0.240">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENTX12-01" time="0.207">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-38" time="0.044">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-14" time="0.049">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCode6" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="GSInfor-1" time="0.127">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-08" time="0.046">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RNROLEERROR-03" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-18" time="0.219">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-07" time="0.141">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-3" time="0.237">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-PARTNER-5" time="0.172">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLSOAP-03" time="0.208">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-EnableProtocol-7" time="0.396">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-24" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-09" time="0.238">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSSOAP-01" time="0.172">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-09" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATIONERROR-02" time="0.125">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-08" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-19" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-27" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-2" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RosettaNetRoles-Search-6" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Host-4" time="0.168">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Create-operation-2" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATION-08" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-OperationsNode0" time="0.143">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-12" time="0.022">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LDAP-06" time="0.234">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-21" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-26" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EnableRNProtocol-9" time="0.443">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-03" time="0.318">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-05" time="0.027">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-04" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-22" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BAErrorCode-02" time="0.172">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-04" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-05" time="0.223">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-30" time="0.175">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-11" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-30" time="0.211">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-26" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-24" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-13" time="0.220">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN025" time="0.040">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-06" time="0.307">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BUSINESSAGREEMENTX12-02" time="0.100">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TEnableProtocolHost3" time="0.375">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-02" time="0.025">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-27" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-23" time="0.025">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-10" time="0.413">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-35" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBDHOST-04" time="0.109">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN017" time="0.308">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-08" time="0.128">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LDAP-03" time="0.223">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOSTBA-05" time="0.095">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-01" time="0.432">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-36" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-04" time="0.109">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-24" time="0.007">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="THOST23" time="0.096">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-OutboundTransportRN" time="0.445">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-05" time="0.193">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-05" time="0.235">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN016" time="0.273">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-03" time="0.140">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPE-07" time="0.143">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-10" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-26" time="0.024">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-11" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-10" time="0.237">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="MsgBus-2" time="0.043">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-13" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-Enableprotocol1" time="0.429">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBDOUTBTRANS-05" time="0.324">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-4" time="0.302">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-08" time="0.110">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-17" time="0.176">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-11" time="0.035">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-22" time="0.156">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-3" time="0.245">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-05" time="0.042">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-04" time="0.172">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Create-operation-1" time="0.154">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RosettaNetRoles-Search-5" time="0.036">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-08" time="0.052">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN010" time="0.045">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOST-04" time="0.163">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-20" time="0.109">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-33" time="0.266">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-9" time="0.041">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-02" time="0.287">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-Delete Host" time="0.094">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-01" time="0.228">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-15" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-05" time="0.266">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-16" time="0.079">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-21" time="0.400">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN004" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-28" time="0.058">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-13" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENT-04" time="0.054">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-6" time="0.270">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-04" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-05" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNERBA-03" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-08" time="0.175">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding1" time="0.095">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-18" time="0.240">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-43" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN008" time="0.084">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-06" time="0.088">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-01" time="0.144">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN011" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-07" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-09" time="0.272">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="GatewayService-1" time="0.222">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOSTS-21" time="0.096">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BIZAGREEMENT-02" time="0.176">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BAErrorCode-04" time="0.111">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-06" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-11" time="0.046">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-01" time="0.147">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-02" time="0.343">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="Role_Group" time="0.050">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-12" time="0.055">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-01" time="0.219">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-11" time="0.232">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TPartner22" time="0.094">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateBizAgre-7" time="0.192">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-06" time="0.411">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-19" time="0.226">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-17" time="0.038">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-04" time="0.013">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCode5" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-06" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-15" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="GatewayService-2" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-09" time="0.223">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-09" time="0.318">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-11" time="0.079">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-11" time="0.104">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-Operation-17" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPE-09" time="0.140">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-03" time="0.030">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-01" time="0.406">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN005" time="0.285">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-25" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-Host" time="0.286">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-02" time="0.138">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-20" time="0.141">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-25" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATION-01" time="0.438">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-24" time="0.088">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Create-operation-1" time="0.049">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LDAP-02" time="0.039">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-32" time="0.040">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SCC-02" time="0.049">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-02" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-23" time="0.030">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOST-20" time="0.230">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="INSTALLED PROTOCOLS-02" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPENABLEDPROTOCOL-30" time="0.291">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN022" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RosettaNetRoles-Get-4" time="0.027">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNERX12-02" time="0.077">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-05" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-30" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-10" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-10" time="0.059">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORTX12-01" time="0.373">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RNROLEERROR-04" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-08" time="0.234">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Create-Syncoperation-3" time="0.256">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOST-03" time="0.437">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-ProtocolBinding" time="0.517">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-Delete operation node0" time="0.040">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-27" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="GSInfor-3" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-12" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-17" time="0.165">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN024" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-1" time="0.266">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-9" time="0.301">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-Group04" time="0.081">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SCC-04" time="0.015">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCode3" time="0.131">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-01" time="0.136">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-01" time="0.156">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-07" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-5" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPHOSTS-21" time="0.079">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-01" time="0.236">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-12" time="0.015">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-20" time="0.112">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-42" time="0.026">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-19" time="0.318">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-23" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPPARTNER-21" time="0.095">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-03" time="0.093">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-Operation-12" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RNROLEERROR-05" time="0.127">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-03" time="0.059">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-03" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-14" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="MsgBus-3" time="6.832">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-11" time="0.250">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-07" time="0.095">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN009" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-09" time="0.035">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RolesBinding-Delete-14" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-11" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATIONERROR-01" time="0.357">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SCC-07" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPE-04" time="0.156">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOSTBA-04" time="0.095">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-02" time="0.053">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Create-operation-2" time="0.078">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-11" time="0.095">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="CONTACT-01" time="0.217">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-30" time="0.447">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-08" time="0.051">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-11" time="0.029">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-Group03" time="0.237">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-20" time="0.382">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-02" time="0.096">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-07" time="0.404">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TOutbound7" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-06" time="0.040">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCode2" time="0.033">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPBIZAGREEMENT-21" time="0.175">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-06" time="0.020">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-EnableProtocol-6" time="0.343">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-26" time="0.033">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TOutbound11" time="0.020">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-partner-16" time="0.100">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-09" time="0.085">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNERBA-01" time="0.182">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-26" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-25" time="0.080">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-BZAgreement-18" time="0.202">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="InstalledTProtocols-1" time="0.112">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OUTBOUNDTRANSPORT-20" time="0.347">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-12" time="0.160">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TBizAgreement5" time="0.219">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-03" time="0.205">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-07" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-Group02" time="0.203">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-04" time="0.024">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-12" time="0.019">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-03" time="0.007">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-04" time="0.151">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-10" time="0.250">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-06" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-02" time="0.015">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOSTX12-02" time="0.094">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-31" time="0.038">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-21" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSSOAP-04" time="0.144">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-4" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-16" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-04" time="0.057">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATIONERROR-04" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-26" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-16" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-7" time="0.270">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-22" time="0.046">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-01" time="0.302">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN019" time="0.026">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBDBIZID-05" time="0.236">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-34" time="0.255">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-6" time="0.266">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-20" time="0.296">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-host-19" time="0.097">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-40" time="0.215">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-05" time="0.170">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNERX12-01" time="0.161">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-12" time="0.223">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-12" time="0.049">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-01" time="0.591">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-10" time="0.331">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-05" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="BAErrorCode-03" time="0.159">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TPartner2" time="0.206">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-11" time="0.525">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-02" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-02" time="0.327">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-14" time="0.053">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-08" time="0.052">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-06" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="IBTProtocol-2" time="0.281">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOUTBOUNDTRANSPORT-20" time="0.318">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-16" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-13" time="0.049">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RBERROR-03" time="0.159">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-44" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TOutbound6" time="0.406">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-08" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-15" time="0.125">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRS-07" time="0.052">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-ast1" time="0.080">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-16" time="0.081">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-17" time="0.160">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-10" time="0.028">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-07" time="0.296">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-06" time="0.027">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-29" time="0.045">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-OverrideOperationsBinding-ost2" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-9" time="0.344">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="GatewayService-4" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="TOutbound16" time="0.017">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-15" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-02" time="0.251">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Outboundtrans-8" time="0.324">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-BA" time="0.086">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-PARTNER-5" time="0.143">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-27" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-18" time="0.015">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="HOST-02" time="0.053">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-24" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-28" time="0.054">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OBRN-OperationsRequestResponsetransaction" time="0.306">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-17" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-01" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN007" time="0.073">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-03" time="0.019">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-24" time="0.024">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="CONTACT-04" time="0.265">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-23" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-02" time="0.069">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Outboundtrans-10" time="0.197">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="INSTALLED PROTOCOLS-01" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCEC-01" time="0.126">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN006" time="0.340">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="THOST1" time="0.127">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-21" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-37" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-10" time="0.278">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-7" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-05" time="0.045">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RosettaNetRoles-Delete-15" time="0.030">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-14" time="0.051">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-21" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOL-04" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-25" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-05" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPPARTNER-20" time="0.156">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SCC-05" time="0.043">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-20" time="0.042">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-17" time="0.175">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-02" time="0.173">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="MsgBus-6" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPE-02" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPE-03" time="0.049">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-9" time="0.408">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-20" time="0.122">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RN-CreatePARTNER-8" time="0.180">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Outboundtrans-8" time="0.334">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-05" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-01" time="0.430">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PCCode1" time="0.117">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNERLOCATION-01" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNER-15" time="0.259">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGSX12-03" time="0.096">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-22" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROTOCOLBINDINGS-05" time="0.234">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RNROLEERROR-07" time="0.033">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-06" time="0.187">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-15" time="0.075">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-10" time="0.046">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-22" time="0.050">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-09" time="0.031">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSX12-01" time="0.172">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-20" time="0.125">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RBERROR-02" time="0.493">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ebMS3OP-41" time="0.067">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-10" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="INBOUNDTRANSPORT-04" time="0.035">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-01" time="0.035">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-03" time="0.050">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN014" time="0.079">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SR-03" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="RBERROR-04" time="0.127">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="USER-Group01" time="0.319">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-08" time="0.041">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-01" time="0.338">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-14" time="0.318">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-13" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ENABLEDPROTOCOLX12-06" time="0.062">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINTYPERN-04" time="0.035">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN020" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-Delete-partner-20" time="0.095">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PARTNERBA-05" time="0.081">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-02" time="0.013">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-16" time="0.261">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-03" time="0.173">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-CreateProtocolBind-10" time="0.389">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="GatewayService-3" time="0.282">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-12" time="0.047">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-18" time="0.246">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="PROXY-13" time="0.235">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="LOCATION-05" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-15" time="0.093">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OB-EnableProtocol-8" time="0.318">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-18" time="0.207">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-03" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-09" time="0.096">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPPROTOCOLBINDINGS-21" time="0.175">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="SOAPOP-01" time="0.160">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-22" time="0.063">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EBXMLOP-03" time="0.016">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="CONTACT-03" time="0.211">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="DOMAINPAIRSRN-06" time="0.034">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATIONS-RN003" time="0.080">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="OPERATION-01" time="0.525">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="X12OP-16" time="0.074">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="UserGroup-10" time="0.032">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="ROLE-07" time="0.064">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+      <testcase name="EDIFACTOP-07" time="0.048">
+            <failure message="Unknown" type="Unknown"/>
+          </testcase>
+  
+  
+  
+</testsuite></testsuites>
